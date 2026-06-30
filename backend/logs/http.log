@@ -517,3 +517,47 @@
 {"level":"http","message":"GET /admin.html 304 1ms","timestamp":"2026-06-30 02:46:12"}
 {"level":"http","message":"GET /assets/images/favicon.png 304 1ms","timestamp":"2026-06-30 02:46:13"}
 {"level":"info","message":"🔄 Received shutdown signal. Closing gracefully...","timestamp":"2026-06-30 03:04:30"}
+{"level":"info","message":"✅ API routes loaded","timestamp":"2026-06-30 03:04:40"}
+{"level":"info","message":"🚀 Supply Chain Circle Server running on http://localhost:5000","timestamp":"2026-06-30 03:04:40"}
+{"level":"info","message":"📁 Environment: production","timestamp":"2026-06-30 03:04:40"}
+{"level":"info","message":"📁 Serving frontend from: C:\\Users\\Administrator\\Desktop\\scc-web-app\\frontend","timestamp":"2026-06-30 03:04:40"}
+{"level":"info","message":"🔄 Press Ctrl+C to stop","timestamp":"2026-06-30 03:04:40"}
+{"level":"http","message":"GET / 304 10ms","timestamp":"2026-06-30 03:04:48"}
+{"level":"http","message":"GET /assets/images/logo.png 304 2ms","timestamp":"2026-06-30 03:04:48"}
+{"level":"http","message":"GET /admin.html 304 2ms","timestamp":"2026-06-30 03:04:58"}
+{"level":"info","message":"🔑 Login attempt - received: \"SCCAdmin123\", stored: \"SCCAdmin123\"","timestamp":"2026-06-30 03:05:11"}
+{"level":"http","message":"POST /api/v1/admin/login 200 14ms","timestamp":"2026-06-30 03:05:11"}
+{"level":"http","message":"GET /api/v1/subscribers 304 80ms","timestamp":"2026-06-30 03:05:11"}
+{"level":"http","message":"GET /api/v1/contacts 200 75ms","timestamp":"2026-06-30 03:05:11"}
+{"level":"http","message":"GET / 304 1ms","timestamp":"2026-06-30 03:05:23"}
+{"level":"http","message":"GET /assets/images/logo.png 304 2ms","timestamp":"2026-06-30 03:05:24"}
+{"level":"http","message":"GET /community.html 304 1ms","timestamp":"2026-06-30 03:05:28"}
+{"level":"http","message":"GET /assets/images/logo.png 304 1ms","timestamp":"2026-06-30 03:05:28"}
+{"level":"info","message":"📩 New contact message from Katlo KInd (businesskind4@gmail.com)","timestamp":"2026-06-30 03:06:17"}
+{"level":"info","message":"📧 Email notification sent for message from businesskind4@gmail.com","timestamp":"2026-06-30 03:06:19"}
+{"level":"http","message":"POST /api/v1/contact 201 1917ms","timestamp":"2026-06-30 03:06:19"}
+{"level":"http","message":"GET /admin.html 304 1ms","timestamp":"2026-06-30 03:07:06"}
+{"level":"http","message":"GET /api/v1/subscribers 304 71ms","timestamp":"2026-06-30 03:07:06"}
+{"level":"http","message":"GET /assets/images/favicon.png 304 1ms","timestamp":"2026-06-30 03:07:07"}
+{"level":"http","message":"GET /api/v1/contacts 200 82ms","timestamp":"2026-06-30 03:07:07"}
+{"level":"http","message":"GET / 200 8ms","timestamp":"2026-06-30 03:07:55"}
+{"level":"http","message":"GET /assets/images/logo.png 200 9ms","timestamp":"2026-06-30 03:07:55"}
+{"level":"http","message":"GET /assets/images/favicon.png 200 8ms","timestamp":"2026-06-30 03:07:56"}
+{"level":"http","message":"GET / 304 1ms","timestamp":"2026-06-30 03:08:19"}
+{"level":"http","message":"GET /assets/images/logo.png 304 0ms","timestamp":"2026-06-30 03:08:19"}
+{"level":"http","message":"GET /assets/images/favicon.png 304 2ms","timestamp":"2026-06-30 03:08:20"}
+{"level":"http","message":"GET /community.html 200 3ms","timestamp":"2026-06-30 03:08:30"}
+{"level":"http","message":"GET /assets/images/logo.png 304 0ms","timestamp":"2026-06-30 03:08:30"}
+{"level":"info","message":"📩 New contact message from Katlo (katlokind@gmail.com)","timestamp":"2026-06-30 03:08:51"}
+{"level":"info","message":"📧 Email notification sent for message from katlokind@gmail.com","timestamp":"2026-06-30 03:08:52"}
+{"level":"http","message":"POST /api/v1/contact 201 1172ms","timestamp":"2026-06-30 03:08:52"}
+{"level":"info","message":"✅ New subscriber: katlokind@gmail.com from SCC Website","timestamp":"2026-06-30 03:09:00"}
+{"level":"http","message":"POST /api/v1/subscribe 201 143ms","timestamp":"2026-06-30 03:09:00"}
+{"level":"http","message":"GET /index.html 200 3ms","timestamp":"2026-06-30 03:09:19"}
+{"level":"http","message":"GET /assets/images/logo.png 304 1ms","timestamp":"2026-06-30 03:09:19"}
+{"level":"http","message":"GET /index.html 304 1ms","timestamp":"2026-06-30 03:09:26"}
+{"level":"http","message":"GET /assets/images/logo.png 304 1ms","timestamp":"2026-06-30 03:09:26"}
+{"level":"http","message":"GET /admin.html 304 1ms","timestamp":"2026-06-30 03:09:46"}
+{"level":"http","message":"GET /api/v1/subscribers 200 66ms","timestamp":"2026-06-30 03:09:46"}
+{"level":"http","message":"GET /assets/images/favicon.png 304 0ms","timestamp":"2026-06-30 03:09:46"}
+{"level":"http","message":"GET /api/v1/contacts 200 70ms","timestamp":"2026-06-30 03:09:46"}
