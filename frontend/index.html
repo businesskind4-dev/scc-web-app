@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supply Chain Circle – Botswana's Procurement Intelligence</title>
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Supply Chain Circle (SCC) is Botswana's professional institution advancing procurement, logistics, and supply chain intelligence through research and digital innovation." />
+    <meta name="keywords" content="Supply Chain, Procurement, Botswana, Logistics, BSCRI, PPA, SCC" />
+    <link rel="canonical" href="https://supplychaincircle.com" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Supply Chain Circle – Botswana's Procurement Intelligence" />
+    <meta property="og:description" content="Advancing procurement and supply chain intelligence for Botswana through research, frameworks, and digital tools." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://supplychaincircle.com" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome 6 (JavaScript SVG method) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- GSAP + ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Three.js (for Particle Network) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLx6el5MKoC1i7QZ8VLi4W9rP2Z0Q58/eL3p6HXzA5n0lKcIXXzL8yJY8HkPKORc1Qz7KB1kskXBHW7q8B6kZg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Vanilla-Tilt (for 3D card tilt) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQk1ECTbM239qX8ludUD8kI5Tl4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <style>
+        /* ============================================================
+           CSS CUSTOM PROPERTIES – "Kalahari Intelligence" Palette
+           ============================================================ */
+        :root {
+            /* Primary */
+            --scc-deep: #010348;
+            --scc-gold: #D4A02B;
+            --scc-teal: #0D9488;
+            --scc-slate: #94A3B8;
+
+            /* Neutrals */
+            --white: #FFFFFF;
+            --off-white: #F8FAFC;
+            --dark: #000000;
+            --gray-100: #F1F5F9;
+            --gray-200: #E2E8F0;
+            --gray-300: #CBD5E1;
+            --gray-400: #94A3B8;
+            --gray-500: #64748B;
+            --gray-600: #475569;
+            --gray-700: #334155;
+            --gray-800: #1E293B;
+            --gray-900: #0F172A;
+
+            /* Gradients */
+            --gradient-gold: linear-gradient(135deg, #D4A02B, #E8C15C);
+            --gradient-teal: linear-gradient(135deg, #0D9488, #14B8A6);
+            --gradient-spotlight: radial-gradient(ellipse at center, rgba(212, 160, 43, 0.15), transparent 70%);
+            --gradient-hero: linear-gradient(180deg, var(--scc-deep) 0%, #0a1628 100%);
+
+            /* Typography */
+            --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+            /* Spacing */
+            --container-max: 1200px;
+            --section-padding: 80px 0;
+            --section-padding-mobile: 50px 0;
+
+            /* Transitions */
+            --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-bounce: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+            /* Shadows */
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+            --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.05);
+            --shadow-glow: 0 0 40px rgba(212, 160, 43, 0.15);
+            --shadow-card-hover: 0 25px 50px rgba(0, 0, 0, 0.4);
+        }
+
+        /* ============================================================
+           RESET & BASE
+           ============================================================ */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            background-color: var(--scc-deep);
+            color: var(--gray-200);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        /* Focus styles for accessibility */
+        :focus-visible {
+            outline: 2px solid var(--scc-gold);
+            outline-offset: 2px;
+            border-radius: 4px;
+        }
+
+        /* Skip to main content */
+        .skip-link {
+            position: absolute;
+            top: -100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--scc-gold);
+            color: var(--scc-deep);
+            padding: 12px 24px;
+            border-radius: 0 0 8px 8px;
+            font-weight: 600;
+            z-index: 10000;
+            transition: top 0.3s ease;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* ============================================================
+           CONTAINER
+           ============================================================ */
+        .container {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 0 24px;
+            width: 100%;
+        }
+
+        /* ============================================================
+           TYPOGRAPHY
+           ============================================================ */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--white);
+        }
+
+        h1 {
+            font-size: clamp(2.4rem, 7vw, 4.8rem);
+            font-weight: 900;
+            line-height: 1.08;
+        }
+        h2 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            margin-bottom: 16px;
+        }
+        h3 {
+            font-size: clamp(1.25rem, 2vw, 1.75rem);
+            margin-bottom: 12px;
+        }
+        p {
+            font-size: 1.125rem;
+            color: var(--gray-400);
+            margin-bottom: 16px;
+        }
+
+        .text-gold {
+            color: var(--scc-gold);
+        }
+        .text-teal {
+            color: var(--scc-teal);
+        }
+        .text-white {
+            color: var(--white);
+        }
+        .text-center {
+            text-align: center;
+        }
+
+        /* ============================================================
+           BUTTONS
+           ============================================================ */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px 32px;
+            border: none;
+            border-radius: 8px;
+            font-family: var(--font-primary);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            text-decoration: none;
+            position: relative;
+            will-change: transform;
+        }
+
+        .btn-primary {
+            background: var(--gradient-gold);
+            color: var(--scc-deep);
+        }
+        .btn-primary:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: var(--shadow-glow);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+        .btn-secondary:hover {
+            border-color: var(--scc-gold);
+            background: rgba(212, 160, 43, 0.08);
+            transform: translateY(-3px);
+        }
+
+        .btn-teal {
+            background: var(--gradient-teal);
+            color: var(--white);
+        }
+        .btn-teal:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 0 30px rgba(13, 148, 136, 0.3);
+        }
+
+        .btn-sm {
+            padding: 10px 20px;
+            font-size: 0.875rem;
+        }
+        .btn-lg {
+            padding: 18px 48px;
+            font-size: 1.125rem;
+        }
+
+        /* ============================================================
+           SECTIONS
+           ============================================================ */
+        .section {
+            padding: var(--section-padding);
+        }
+        .section-dark {
+            background: var(--scc-deep);
+        }
+        .section-light {
+            background: var(--dark);
+        }
+
+        .section-tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--scc-gold);
+            background: rgba(212, 160, 43, 0.1);
+            padding: 4px 16px;
+            border-radius: 100px;
+            margin-bottom: 12px;
+            border: 1px solid rgba(212, 160, 43, 0.2);
+        }
+        .section-title {
+            margin-bottom: 8px;
+        }
+        .section-subtitle {
+            font-size: 1.125rem;
+            color: var(--gray-400);
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+
+        /* ============================================================
+           NAVBAR
+           ============================================================ */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 16px 0;
+            transition: background 0.4s ease, backdrop-filter 0.4s ease, padding 0.3s ease;
+            background: transparent;
+            will-change: transform;
+        }
+
+        .navbar.scrolled {
+            background: rgba(11, 30, 54, 0.92);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 10px 0;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .nav-logo img {
+            height: 40px;
+            width: auto;
+        }
+        .nav-logo span {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--white);
+            letter-spacing: -0.5px;
+        }
+        .nav-logo span .gold {
+            color: var(--scc-gold);
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+        .nav-link {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--gray-400);
+            transition: var(--transition-smooth);
+            position: relative;
+        }
+        .nav-link:hover {
+            color: var(--white);
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--scc-gold);
+            transition: var(--transition-smooth);
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        .nav-link.active {
+            color: var(--white);
+        }
+        .nav-link.active::after {
+            width: 100%;
+        }
+
+        /* Hamburger */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 4px;
+            cursor: pointer;
+            padding: 4px;
+            background: none;
+            border: none;
+        }
+        .hamburger span {
+            display: block;
+            width: 28px;
+            height: 2px;
+            background: var(--white);
+            border-radius: 100px;
+            transition: var(--transition-smooth);
+        }
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+
+        /* ============================================================
+           HERO
+           ============================================================ */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 120px 24px 80px;
+            background: var(--gradient-hero);
+            position: relative;
+            overflow: hidden;
+        }
+
+        #particle-canvas {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: var(--gradient-spotlight);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(212, 160, 43, 0.12);
+            border: 1px solid rgba(212, 160, 43, 0.25);
+            color: var(--scc-gold);
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 6px 18px;
+            border-radius: 100px;
+            margin-bottom: 20px;
+            will-change: transform;
+        }
+
+        .hero-badge .flag-icon {
+            display: inline-block;
+            width: 18px;
+            height: 14px;
+            vertical-align: middle;
+        }
+
+        .hero h1 .highlight {
+            background: var(--gradient-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: clamp(1rem, 1.4vw, 1.35rem);
+            color: var(--gray-400);
+            max-width: 620px;
+            margin: 0 auto 32px;
+            line-height: 1.7;
+        }
+
+        .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            justify-content: center;
+        }
+
+        /* Pulse Ring */
+        .pulse-ring {
+            position: relative;
+        }
+        .pulse-ring::before {
+            content: '';
+            position: absolute;
+            inset: -4px;
+            border-radius: 8px;
+            border: 2px solid var(--scc-gold);
+            animation: pulse-ring 2s ease-out infinite;
+            pointer-events: none;
+        }
+
+        @keyframes pulse-ring {
+            0% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+            100% {
+                transform: scale(1.5);
+                opacity: 0;
+            }
+        }
+
+        /* Float animation */
+        @keyframes float {
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        .float {
+            animation: float 4s ease-in-out infinite;
+        }
+
+        /* ============================================================
+           STATS BAR
+           ============================================================ */
+        .stats-bar {
+            background: rgba(255, 255, 255, 0.03);
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 28px 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            font-size: clamp(1.6rem, 3vw, 2.6rem);
+            font-weight: 800;
+            color: var(--white);
+            margin-bottom: 2px;
+        }
+        .stat-item h3 .gold {
+            color: var(--scc-gold);
+        }
+        .stat-item h3 .teal {
+            color: var(--scc-teal);
+        }
+        .stat-item p {
+            font-size: 0.8rem;
+            color: var(--gray-500);
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* ============================================================
+           ASSETS
+           ============================================================ */
+        .assets-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 28px;
+            margin-top: 40px;
+        }
+
+        .asset-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 16px;
+            padding: 30px 26px;
+            transition: var(--transition-smooth);
+            text-align: left;
+            will-change: transform;
+            transform-style: preserve-3d;
+            perspective: 800px;
+        }
+
+        .asset-card .card-icon {
+            font-size: 2.4rem;
+            margin-bottom: 12px;
+            display: block;
+            color: var(--scc-gold);
+        }
+
+        .asset-card h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--white);
+            margin-bottom: 6px;
+        }
+        .asset-card p {
+            font-size: 0.95rem;
+            color: var(--gray-400);
+            margin-bottom: 16px;
+            line-height: 1.6;
+        }
+
+        .asset-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 16px;
+        }
+        .asset-tags span {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--gray-400);
+            font-size: 0.7rem;
+            padding: 3px 12px;
+            border-radius: 100px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .asset-card .btn {
+            width: 100%;
+            justify-content: center;
+        }
+
+        /* ============================================================
+           STATUS BADGE
+           ============================================================ */
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 0.65rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 3px 12px;
+            border-radius: 100px;
+            margin-bottom: 10px;
+        }
+        .status-live {
+            background: rgba(13, 148, 136, 0.15);
+            color: var(--scc-teal);
+            border: 1px solid rgba(13, 148, 136, 0.2);
+        }
+        .status-coming {
+            background: rgba(212, 160, 43, 0.12);
+            color: var(--scc-gold);
+            border: 1px solid rgba(212, 160, 43, 0.15);
+        }
+
+        .status-badge i {
+            font-size: 0.4rem;
+        }
+
+        /* ============================================================
+           FOOTER
+           ============================================================ */
+        .footer {
+            background: var(--dark);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 48px 0 24px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 32px;
+        }
+
+        .footer-brand p {
+            font-size: 0.875rem;
+            color: var(--gray-500);
+            max-width: 300px;
+            margin-top: 8px;
+        }
+
+        .footer h4 {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--white);
+            margin-bottom: 12px;
+        }
+
+        .footer-links li {
+            margin-bottom: 8px;
+        }
+        .footer-links a {
+            font-size: 0.875rem;
+            color: var(--gray-500);
+            transition: var(--transition-smooth);
+        }
+        .footer-links a:hover {
+            color: var(--scc-gold);
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 12px;
+            margin-top: 12px;
+        }
+        .footer-social a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--gray-400);
+            transition: var(--transition-smooth);
+        }
+        .footer-social a:hover {
+            background: var(--scc-gold);
+            color: var(--scc-deep);
+            transform: translateY(-3px);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .footer-bottom p {
+            font-size: 0.75rem;
+            color: var(--gray-500);
+            margin: 0;
+        }
+
+        .footer-brand .nav-logo img {
+            height: 36px;
+        }
+
+        /* ============================================================
+           RESPONSIVE BREAKPOINTS
+           ============================================================ */
+
+        /* Tablet (768px and down) */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 100px 20px 60px;
+                min-height: 90vh;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 16px;
+            }
+
+            .stat-item h3 {
+                font-size: 1.6rem;
+            }
+
+            .assets-grid {
+                grid-template-columns: 1fr;
+                max-width: 420px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .hero-buttons .btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 32px;
+            }
+
+            /* Hamburger visible on tablet */
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-menu {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 280px;
+                height: 100vh;
+                background: var(--scc-deep);
+                flex-direction: column;
+                justify-content: center;
+                gap: 24px;
+                padding: 40px;
+                transition: right 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+                border-left: 1px solid rgba(255, 255, 255, 0.05);
+                box-shadow: -10px 0 40px rgba(0, 0, 0, 0.5);
+            }
+
+            .nav-menu.active {
+                right: 0;
+            }
+
+            .navbar.scrolled .nav-menu {
+                background: rgba(11, 30, 54, 0.98);
+            }
+        }
+
+        /* Phone (480px and down) */
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero p {
+                font-size: 0.95rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 12px;
+            }
+            .stat-item h3 {
+                font-size: 1.4rem;
+            }
+            .stat-item p {
+                font-size: 0.65rem;
+            }
+
+            .asset-card {
+                padding: 20px 16px;
+            }
+            .asset-card h3 {
+                font-size: 1.05rem;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        /* Very small phones (360px) */
+        @media (max-width: 360px) {
+            .hero h1 {
+                font-size: 1.7rem;
+            }
+            .stats-grid {
+                gap: 8px;
+            }
+            .stat-item h3 {
+                font-size: 1.2rem;
+            }
+        }
+
+        /* ============================================================
+           SCROLLBAR
+           ============================================================ */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--scc-deep);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--scc-gold);
+            border-radius: 100px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #b8860b;
+        }
+
+        /* ============================================================
+           SELECTION
+           ============================================================ */
+        ::selection {
+            background: var(--scc-gold);
+            color: var(--scc-deep);
+        }
+
+        /* ============================================================
+           REVEAL CLASSES (for GSAP fallback)
+           ============================================================ */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        .reveal-visible {
+            opacity: 1;
+            transform: translateY(0);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+
+        /* ============================================================
+           ROUTE TRACING SVG
+           ============================================================ */
+        .route-tracing-container {
+            display: flex;
+            justify-content: center;
+            padding: 20px 0 10px;
+        }
+        .route-tracing-container svg {
+            width: 80%;
+            max-width: 500px;
+            height: auto;
+        }
+        .route-line {
+            stroke-dasharray: 800;
+            stroke-dashoffset: 800;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Skip to main content -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- ============================================================
+    NAVBAR
+    ============================================================ -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="container">
+            <a href="/index.html" class="nav-logo" aria-label="Supply Chain Circle Home">
+                <img src="assets/images/logo.png" alt="Supply Chain Circle Logo" />
+                <span>Supply <span class="gold">Chain Circle</span></span>
+            </a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu" role="menubar">
+                <li role="none"><a href="/index.html" class="nav-link" role="menuitem">Home</a></li>
+                <li role="none"><a href="/about.html" class="nav-link" role="menuitem">About</a></li>
+                <li role="none"><a href="/assets.html" class="nav-link" role="menuitem">Assets</a></li>
+                <li role="none"><a href="/community.html" class="nav-link" role="menuitem">Community</a></li>
+                <li role="none">
+                    <a href="/community.html#contact" class="btn btn-primary btn-sm" role="menuitem">
+                        <i class="fas fa-paper-plane" aria-hidden="true"></i> Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================================================
+    MAIN CONTENT
+    ============================================================ -->
+    <main id="main-content">
+
+        <!-- ============================================================
+        HERO
+        ============================================================ -->
+        <section class="hero" id="home">
+            <!-- Three.js Particle Canvas -->
+            <div id="particle-canvas"></div>
+
+            <div class="container hero-content">
+                <span class="hero-badge float" id="heroBadge">
+                    <!-- Botswana Flag inline SVG -->
+                    <svg class="flag-icon" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <rect width="18" height="12" fill="#75AADB"/>
+                        <rect x="0" y="4.5" width="18" height="3" fill="#1A1A1A"/>
+                        <rect x="0" y="6" width="18" height="1.5" fill="#FFFFFF"/>
+                        <rect x="0" y="3" width="18" height="1.5" fill="#FFFFFF"/>
+                        <rect x="0" y="0" width="18" height="1.5" fill="#75AADB"/>
+                        <rect x="0" y="10.5" width="18" height="1.5" fill="#75AADB"/>
+                    </svg>
+                    Botswana's Procurement Intelligence
+                </span>
+
+                <h1 id="heroTitle">
+                    Advancing<br />
+                    <span class="highlight">Supply Chain</span><br />
+                    Intelligence
+                </h1>
+
+                <p id="heroDesc">
+                    Supply Chain Circle (SCC) is Botswana's dedicated institution for
+                    procurement, logistics, and supply chain research — creating knowledge,
+                    frameworks, and digital tools for evidence-based decision-making.
+                </p>
+
+                <div class="hero-buttons" id="heroButtons">
+                    <a href="/assets.html" class="btn btn-primary btn-lg pulse-ring">
+                        <i class="fas fa-rocket" aria-hidden="true"></i> Explore Our Assets
+                    </a>
+                    <a href="/community.html" class="btn btn-secondary btn-lg">
+                        <i class="fas fa-users" aria-hidden="true"></i> Join Community
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+        STATS BAR
+        ============================================================ -->
+        <section class="stats-bar" id="statsBar" aria-label="Key metrics">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3><span class="gold" id="statCommunity">0</span></h3>
+                        <p>Community Members</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3><span class="teal" id="statAssets">0</span></h3>
+                        <p>Digital Assets</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3><span class="gold" id="statDimensions">0</span></h3>
+                        <p>BSCRI Dimensions</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3><span class="teal" id="statChapters">0</span></h3>
+                        <p>PPA Training Chapters</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+        ROUTE TRACING (Decorational)
+        ============================================================ -->
+        <div class="route-tracing-container" id="routeTracing">
+            <svg viewBox="0 0 500 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path class="route-line" d="M10 30 L80 10 L150 30 L220 10 L290 30 L360 10 L430 30 L490 10"
+                stroke="url(#routeGrad)" stroke-width="2" stroke-linecap="round"/>
+                <defs>
+                    <linearGradient id="routeGrad" x1="0" y1="0" x2="1" y2="0">
+                        <stop offset="0%" stop-color="#D4A02B" stop-opacity="0.4"/>
+                        <stop offset="30%" stop-color="#D4A02B" stop-opacity="1"/>
+                        <stop offset="70%" stop-color="#0D9488" stop-opacity="1"/>
+                        <stop offset="100%" stop-color="#0D9488" stop-opacity="0.4"/>
+                    </linearGradient>
+                </defs>
+                <!-- Nodes -->
+                <circle cx="10" cy="30" r="4" fill="#D4A02B" opacity="0.8"/>
+                <circle cx="80" cy="10" r="4" fill="#D4A02B" opacity="0.8"/>
+                <circle cx="150" cy="30" r="4" fill="#D4A02B" opacity="0.8"/>
+                <circle cx="220" cy="10" r="4" fill="#D4A02B" opacity="0.8"/>
+                <circle cx="290" cy="30" r="4" fill="#D4A02B" opacity="0.8"/>
+                <circle cx="360" cy="10" r="4" fill="#0D9488" opacity="0.8"/>
+                <circle cx="430" cy="30" r="4" fill="#0D9488" opacity="0.8"/>
+                <circle cx="490" cy="10" r="4" fill="#0D9488" opacity="0.8"/>
+            </svg>
+        </div>
+
+        <!-- ============================================================
+        FEATURED ASSETS
+        ============================================================ -->
+        <section class="section section-dark" id="assetsSection" aria-label="Featured assets">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag">
+                        <i class="fas fa-cubes" aria-hidden="true"></i> Our Work
+                    </span>
+                    <h2 class="section-title">Digital Assets</h2>
+                    <p class="section-subtitle">
+                        Research-backed tools and platforms built for Botswana's procurement ecosystem.
+                    </p>
+                </div>
+
+                <div class="assets-grid">
+                    <!-- BSCRI Card -->
+                    <div class="asset-card" data-tilt data-tilt-scale="1.02" data-tilt-glare data-tilt-max-glare="0.15">
+                        <span class="status-badge status-live">
+                            <i class="fas fa-circle" style="font-size:0.4rem;" aria-hidden="true"></i> Live
+                        </span>
+                        <span class="card-icon"><i class="fas fa-chart-simple" aria-hidden="true"></i></span>
+                        <h3>BSCRI</h3>
+                        <p>Botswana Supply Chain Readiness Index — assess your organisation across 7 dimensions.</p>
+                        <div class="asset-tags">
+                            <span>Procurement</span>
+                            <span>Logistics</span>
+                            <span>Digital</span>
+                            <span>Trade</span>
+                        </div>
+                        <a href="https://bscri1.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                            Launch BSCRI <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                    <!-- PPA Platform Card -->
+                    <div class="asset-card" data-tilt data-tilt-scale="1.02" data-tilt-glare data-tilt-max-glare="0.15">
+                        <span class="status-badge status-live">
+                            <i class="fas fa-circle" style="font-size:0.4rem;" aria-hidden="true"></i> Live
+                        </span>
+                        <span class="card-icon"><i class="fas fa-book-open" aria-hidden="true"></i></span>
+                        <h3>PPA Learning Platform</h3>
+                        <p>Interactive training for Botswana's Public Procurement Act — 16 chapters with quizzes.</p>
+                        <div class="asset-tags">
+                            <span>Training</span>
+                            <span>Compliance</span>
+                            <span>Certification</span>
+                        </div>
+                        <a href="https://businesskind4-dev.github.io/ppa-act-training/" target="_blank" rel="noopener noreferrer" class="btn btn-teal">
+                            Start Learning <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================================
+    FOOTER
+    ============================================================ -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <a href="/index.html" class="nav-logo">
+                        <img src="assets/images/logo.png" alt="Supply Chain Circle Logo" />
+                        <span style="font-size:1.1rem;font-weight:700;color:var(--white);">
+                            Supply <span class="gold">Chain Circle</span>
+                        </span>
+                    </a>
+                    <p>
+                        Advancing procurement and supply chain intelligence for Botswana
+                        through research, innovation, and digital transformation.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/profile.php?id=61589321477563" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://wa.me/qr/D2YIHY46XL4UO1" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                        </a>
+                        <a href="mailto:katlokind@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/assets.html">Assets</a></li>
+                        <li><a href="/community.html">Community</a></li>
+                        <li><a href="/community.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div>
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://businesskind4-dev.github.io/ppa-act-training/" target="_blank">PPA Training</a></li>
+                        <li><a href="#">Research Library</a></li>
+                        <li><a href="#">Frameworks</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:+26771916192"><i class="fas fa-phone" aria-hidden="true"></i> +267 71 916 192</a></li>
+                        <li><a href="mailto:katlokind@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> katlokind@gmail.com</a></li>
+                        <li><a href="https://wa.me/qr/D2YIHY46XL4UO1" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61589321477563" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Supply Chain Circle. All rights reserved.</p>
+                <p>Built with <i class="fas fa-heart" aria-hidden="true" style="color:var(--scc-gold);"></i> in Botswana</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================================
+    SCRIPTS – All JavaScript
+    ============================================================ -->
+    <script>
+        (function() {
+            'use strict';
+
+            // ============================================================
+            // 0. CONSOLE BRANDING (professional, no emojis)
+            // ============================================================
+            console.log('%c Supply Chain Circle ',
+                'background:#D4A02B;color:#0B1E36;font-weight:bold;font-size:16px;padding:8px 16px;border-radius:4px;'
+                );
+            console.log('%c Botswana\'s Procurement Intelligence Institution ',
+                'color:#94A3B8;font-size:13px;'
+                );
+            console.log('  BSCRI: https://bscri1.vercel.app/');
+            console.log('  PPA Training: https://businesskind4-dev.github.io/ppa-act-training/');
+            console.log('  Community: https://www.facebook.com/profile.php?id=61589321477563');
+
+            // ============================================================
+            // 1. THREE.JS – PARTICLE NETWORK (Supply Chain Ecosystem)
+            // ============================================================
+            (function initParticles() {
+                const container = document.getElementById('particle-canvas');
+                if (!container || typeof THREE === 'undefined') return;
+
+                const scene = new THREE.Scene();
+                const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+                const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+                renderer.setSize(window.innerWidth, window.innerHeight);
+                renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+                container.appendChild(renderer.domElement);
+
+                // Particles
+                const count = 120;
+                const positions = new Float32Array(count * 3);
+                for (let i = 0; i < count * 3; i++) {
+                    positions[i] = (Math.random() - 0.5) * 20;
+                }
+                const geometry = new THREE.BufferGeometry();
+                geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+
+                const material = new THREE.PointsMaterial({
+                    color: 0xD4A02B,
+                    size: 0.035,
+                    transparent: true,
+                    opacity: 0.6,
+                    blending: THREE.AdditiveBlending,
+                    sizeAttenuation: true,
+                });
+                const particles = new THREE.Points(geometry, material);
+                scene.add(particles);
+
+                // Lines between nearby particles
+                const lineMaterial = new THREE.LineBasicMaterial({
+                    color: 0xD4A02B,
+                    transparent: true,
+                    opacity: 0.12,
+                    blending: THREE.AdditiveBlending,
+                });
+                const lineGeometry = new THREE.BufferGeometry();
+                const linePositions = new Float32Array(count * count * 3);
+                lineGeometry.setAttribute('position', new THREE.BufferAttribute(linePositions, 3));
+                const lines = new THREE.LineSegments(lineGeometry, lineMaterial);
+                scene.add(lines);
+
+                camera.position.z = 6;
+
+                let mouseX = 0,
+                    mouseY = 0;
+                document.addEventListener('mousemove', (e) => {
+                    mouseX = (e.clientX / window.innerWidth) * 2 - 1;
+                    mouseY = -(e.clientY / window.innerHeight) * 2 + 1;
+                });
+
+                function updateLines() {
+                    const pos = particles.geometry.attributes.position.array;
+                    const linePos = lines.geometry.attributes.position.array;
+                    let idx = 0;
+                    const threshold = 1.8;
+                    for (let i = 0; i < count; i++) {
+                        for (let j = i + 1; j < count; j++) {
+                            const dx = pos[i * 3] - pos[j * 3];
+                            const dy = pos[i * 3 + 1] - pos[j * 3 + 1];
+                            const dz = pos[i * 3 + 2] - pos[j * 3 + 2];
+                            const dist = Math.sqrt(dx * dx + dy * dy + dz * dz);
+                            if (dist < threshold) {
+                                linePos[idx * 3] = pos[i * 3];
+                                linePos[idx * 3 + 1] = pos[i * 3 + 1];
+                                linePos[idx * 3 + 2] = pos[i * 3 + 2];
+                                linePos[(idx + 1) * 3] = pos[j * 3];
+                                linePos[(idx + 1) * 3 + 1] = pos[j * 3 + 1];
+                                linePos[(idx + 1) * 3 + 2] = pos[j * 3 + 2];
+                                idx += 2;
+                            }
+                        }
+                    }
+                    lines.geometry.attributes.position.array.fill(0);
+                    lines.geometry.attributes.position.array.set(linePos, 0);
+                    lines.geometry.setDrawRange(0, idx);
+                    lines.geometry.attributes.position.needsUpdate = true;
+                }
+
+                function animate() {
+                    requestAnimationFrame(animate);
+                    particles.rotation.x += 0.0003;
+                    particles.rotation.y += 0.0005;
+                    particles.rotation.z += 0.0002;
+                    particles.rotation.x += (mouseY * 0.005 - particles.rotation.x) * 0.02;
+                    particles.rotation.y += (mouseX * 0.005 - particles.rotation.y) * 0.02;
+                    updateLines();
+                    renderer.render(scene, camera);
+                }
+
+                animate();
+
+                function resize() {
+                    const w = window.innerWidth;
+                    const h = window.innerHeight;
+                    camera.aspect = w / h;
+                    camera.updateProjectionMatrix();
+                    renderer.setSize(w, h);
+                }
+                window.addEventListener('resize', resize);
+            })();
+
+            // ============================================================
+            // 2. VANILLA-TILT – 3D Card Tilt
+            // ============================================================
+            if (typeof VanillaTilt !== 'undefined') {
+                VanillaTilt.init(document.querySelectorAll('[data-tilt]'), {
+                    max: 12,
+                    speed: 400,
+                    glare: true,
+                    'max-glare': 0.12,
+                    gyroscope: false,
+                });
+            }
+
+            // ============================================================
+            // 3. GSAP + SCROLLTRIGGER – Premium Animations
+            // ============================================================
+            if (typeof gsap !== 'undefined') {
+                gsap.registerPlugin(ScrollTrigger);
+
+                // --- Hero stagger on load ---
+                const tl = gsap.timeline({ defaults: { ease: 'power4.out', duration: 1.2 } });
+                tl.from('#heroBadge', { y: -30, opacity: 0, duration: 0.8 })
+                    .from('#heroTitle', { y: 50, opacity: 0, duration: 1.2 }, '-=0.4')
+                    .from('#heroDesc', { y: 30, opacity: 0, duration: 1 }, '-=0.6')
+                    .from('#heroButtons .btn', { y: 20, opacity: 0, stagger: 0.15, duration: 0.8 }, '-=0.4');
+
+                // --- Stat counters with GSAP ---
+                const statTargets = [
+                    { el: '#statCommunity', target: 260 },
+                    { el: '#statAssets', target: 2 },
+                    { el: '#statDimensions', target: 7 },
+                    { el: '#statChapters', target: 16 },
+                ];
+
+                ScrollTrigger.create({
+                    trigger: '#statsBar',
+                    start: 'top 80%',
+                    once: true,
+                    onEnter: () => {
+                        statTargets.forEach(({ el, target }) => {
+                            const elem = document.querySelector(el);
+                            if (!elem) return;
+                            const obj = { val: 0 };
+                            gsap.to(obj, {
+                                val: target,
+                                duration: 2,
+                                ease: 'power3.out',
+                                onUpdate: () => {
+                                    elem.textContent = Math.round(obj.val);
+                                },
+                                onComplete: () => {
+                                    elem.textContent = target;
+                                }
+                            });
+                        });
+                    }
+                });
+
+                // --- Asset cards reveal with ScrollTrigger ---
+                gsap.utils.toArray('.asset-card').forEach((card, i) => {
+                    gsap.from(card, {
+                        y: 50,
+                        opacity: 0,
+                        duration: 1,
+                        ease: 'power3.out',
+                        scrollTrigger: {
+                            trigger: card,
+                            start: 'top 85%',
+                            toggleActions: 'play none none none',
+                            once: true,
+                        },
+                        delay: i * 0.15,
+                    });
+                });
+
+                // --- Route tracing animation ---
+                const routeLine = document.querySelector('.route-line');
+                if (routeLine) {
+                    ScrollTrigger.create({
+                        trigger: '#routeTracing',
+                        start: 'top 90%',
+                        once: true,
+                        onEnter: () => {
+                            gsap.to(routeLine, {
+                                strokeDashoffset: 0,
+                                duration: 1.8,
+                                ease: 'power2.inOut',
+                            });
+                        }
+                    });
+                }
+
+                // --- Navbar background on scroll ---
+                const navbar = document.getElementById('navbar');
+                ScrollTrigger.create({
+                    start: 'top top',
+                    end: '+=100',
+                    onUpdate: (self) => {
+                        if (self.progress > 0.3) {
+                            navbar.classList.add('scrolled');
+                        } else {
+                            navbar.classList.remove('scrolled');
+                        }
+                    }
+                });
+            }
+
+            // ============================================================
+            // 4. NAVBAR TOGGLE (Mobile) – safe with ARIA
+            // ============================================================
+            const hamburger = document.getElementById('hamburger');
+            const navMenu = document.getElementById('navMenu');
+
+            if (hamburger && navMenu) {
+                hamburger.addEventListener('click', function() {
+                    const isOpen = this.classList.toggle('active');
+                    navMenu.classList.toggle('active');
+                    this.setAttribute('aria-expanded', isOpen);
+                });
+
+                navMenu.querySelectorAll('.nav-link, .btn').forEach((link) => {
+                    link.addEventListener('click', () => {
+                        hamburger.classList.remove('active');
+                        navMenu.classList.remove('active');
+                        hamburger.setAttribute('aria-expanded', 'false');
+                    });
+                });
+            }
+
+            // ============================================================
+            // 5. FOOTER YEAR
+            // ============================================================
+            const yearSpan = document.getElementById('currentYear');
+            if (yearSpan) {
+                yearSpan.textContent = new Date().getFullYear();
+            }
+
+            // ============================================================
+            // 6. FALLBACK REVEAL (for non-GSAP scenarios)
+            // ============================================================
+            if (typeof gsap === 'undefined') {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('reveal-visible');
+                        }
+                    });
+                }, { threshold: 0.15 });
+                document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+            }
+
+        })();
+    </script>
+
+</body>
+</html>

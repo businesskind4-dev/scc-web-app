@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found – Supply Chain Circle</title>
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Page not found – Supply Chain Circle" />
+    <meta name="robots" content="noindex, nofollow" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome 6 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <style>
+        /* ============================================================
+           CSS CUSTOM PROPERTIES
+           ============================================================ */
+        :root {
+            --scc-deep: #0B1E36;
+            --scc-gold: #D4A02B;
+            --scc-teal: #0D9488;
+            --scc-slate: #94A3B8;
+
+            --white: #FFFFFF;
+            --dark: #0F172A;
+            --gray-400: #94A3B8;
+            --gray-500: #64748B;
+            --gray-600: #475569;
+
+            --gradient-gold: linear-gradient(135deg, #D4A02B, #E8C15C);
+            --gradient-hero: linear-gradient(180deg, var(--scc-deep) 0%, #0a1628 100%);
+            --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            background: var(--gradient-hero);
+            color: var(--gray-400);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 24px;
+            overflow: hidden;
+        }
+
+        /* ============================================================
+           FLOATING 404 ANIMATION
+           ============================================================ */
+        .error-code {
+            font-size: clamp(8rem, 25vw, 20rem);
+            font-weight: 900;
+            line-height: 1;
+            background: var(--gradient-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: float 4s ease-in-out infinite;
+            position: relative;
+        }
+
+        @keyframes float {
+            0%,
+            100% {
+                transform: translateY(0px) scale(1);
+            }
+            50% {
+                transform: translateY(-20px) scale(1.02);
+            }
+        }
+
+        .error-code::after {
+            content: '404';
+            position: absolute;
+            inset: 0;
+            background: var(--gradient-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            filter: blur(40px);
+            opacity: 0.3;
+            z-index: -1;
+            animation: pulse-blur 3s ease-in-out infinite;
+        }
+
+        @keyframes pulse-blur {
+            0%,
+            100% {
+                opacity: 0.2;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.4;
+                transform: scale(1.1);
+            }
+        }
+
+        h1 {
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            color: var(--white);
+            margin: 16px 0 8px;
+        }
+
+        p {
+            font-size: clamp(1rem, 1.2vw, 1.25rem);
+            color: var(--gray-500);
+            max-width: 500px;
+            margin: 0 auto 32px;
+        }
+
+        /* ============================================================
+           BUTTONS
+           ============================================================ */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 32px;
+            border: none;
+            border-radius: 8px;
+            font-family: var(--font-primary);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background: var(--gradient-gold);
+            color: var(--scc-deep);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 0 40px rgba(212, 160, 43, 0.2);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--scc-gold);
+            background: rgba(212, 160, 43, 0.05);
+            transform: translateY(-3px);
+        }
+
+        .btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+        }
+
+        /* ============================================================
+           GLOW ORBS
+           ============================================================ */
+        .orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(80px);
+            pointer-events: none;
+            z-index: -1;
+            animation: orb-float 8s ease-in-out infinite;
+        }
+
+        .orb-1 {
+            width: 300px;
+            height: 300px;
+            background: rgba(212, 160, 43, 0.08);
+            top: -100px;
+            right: -100px;
+            animation-delay: 0s;
+        }
+
+        .orb-2 {
+            width: 400px;
+            height: 400px;
+            background: rgba(13, 148, 136, 0.06);
+            bottom: -150px;
+            left: -150px;
+            animation-delay: -4s;
+        }
+
+        .orb-3 {
+            width: 200px;
+            height: 200px;
+            background: rgba(212, 160, 43, 0.05);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation-delay: -2s;
+        }
+
+        @keyframes orb-float {
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+            }
+            33% {
+                transform: translate(30px, -30px) scale(1.1);
+            }
+            66% {
+                transform: translate(-20px, 20px) scale(0.9);
+            }
+        }
+
+        /* ============================================================
+           RESPONSIVE
+           ============================================================ */
+        @media (max-width: 480px) {
+            .error-code {
+                font-size: 6rem;
+            }
+            .btn-group {
+                flex-direction: column;
+                width: 100%;
+                max-width: 280px;
+            }
+            .btn-group .btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
+        ::selection {
+            background: var(--scc-gold);
+            color: var(--scc-deep);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Glow Orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <!-- Content -->
+    <div class="error-code">404</div>
+    <h1>Page Not Found</h1>
+    <p>
+        The page you're looking for doesn't exist or has been moved.
+        Let's get you back on track.
+    </p>
+
+    <div class="btn-group">
+        <a href="/" class="btn btn-primary">
+            <i class="fas fa-home" aria-hidden="true"></i> Go Home
+        </a>
+        <a href="/assets.html" class="btn btn-secondary">
+            <i class="fas fa-cubes" aria-hidden="true"></i> Browse Assets
+        </a>
+    </div>
+
+    <!-- ============================================================
+    SCRIPTS
+    ============================================================ -->
+    <script>
+        (function() {
+            'use strict';
+
+            console.log('%c 404 - Supply Chain Circle ',
+                'background:#D4A02B;color:#0B1E36;font-weight:bold;font-size:14px;padding:6px 14px;border-radius:4px;'
+            );
+
+            // ============================================================
+            // GSAP Entrance Animation
+            // ============================================================
+            if (typeof gsap !== 'undefined') {
+                const tl = gsap.timeline({ defaults: { ease: 'power4.out', duration: 1.2 } });
+
+                tl.from('.error-code', {
+                        y: -80,
+                        opacity: 0,
+                        rotation: -10,
+                        duration: 1.4,
+                        ease: 'back.out(1.7)',
+                    })
+                    .from('h1', { y: 30, opacity: 0, duration: 0.8 }, '-=0.6')
+                    .from('p', { y: 20, opacity: 0, duration: 0.8 }, '-=0.4')
+                    .from('.btn-group .btn', { y: 20, opacity: 0, stagger: 0.15, duration: 0.6 }, '-=0.3');
+            } else {
+                // Fallback
+                document.querySelectorAll('.btn, h1, p, .error-code').forEach((el, i) => {
+                    el.style.opacity = '0';
+                    el.style.transform = 'translateY(30px)';
+                    setTimeout(() => {
+                        el.style.transition = 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+                        el.style.opacity = '1';
+                        el.style.transform = 'translateY(0)';
+                    }, 100 + i * 150);
+                });
+            }
+
+            // ============================================================
+            // PARALLAX MOUSE EFFECT
+            // ============================================================
+            document.addEventListener('mousemove', (e) => {
+                const x = (e.clientX / window.innerWidth - 0.5) * 10;
+                const y = (e.clientY / window.innerHeight - 0.5) * 10;
+                const code = document.querySelector('.error-code');
+                if (code) {
+                    code.style.transform = `translate(${x * 0.5}px, ${y * 0.5}px)`;
+                }
+            });
+
+            // ============================================================
+            // RANDOM 404 QUOTE
+            // ============================================================
+            const quotes = [
+                "Looks like we lost this shipment.",
+                "This page is out of stock.",
+                "404 — Supply chain disruption detected.",
+                "Even procurement has its limits.",
+                "The link you requested is on backorder.",
+            ];
+            const p = document.querySelector('p');
+            if (p) {
+                p.textContent = quotes[Math.floor(Math.random() * quotes.length)];
+            }
+
+        })();
+    </script>
+
+</body>
+</html>

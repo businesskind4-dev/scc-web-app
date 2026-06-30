@@ -1,0 +1,519 @@
+{"level":"info","message":"Supply Chain Circle API listening on port 5000","timestamp":"2026-06-29 19:00:23"}
+{"level":"info","message":"Environment: development","timestamp":"2026-06-29 19:00:23"}
+{"level":"info","message":"Health check: http://localhost:5000/api/health","timestamp":"2026-06-29 19:00:23"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:00:28"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:00:28"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:00:38"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:00:38"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:00:48"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:00:48"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:00:58"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:00:58"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:01:08"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:01:08"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:01:18"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:01:18"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:01:28"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:01:28"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:01:38"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:01:38"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:01:48"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:01:48"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:01:58"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:01:58"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:02:08"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:02:08"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:02:18"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:02:18"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:02:28"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:02:28"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:02:38"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:02:38"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:02:48"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:02:48"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:02:58"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:02:58"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:03:08"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:03:08"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:03:18"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:03:18"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:03:28"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:03:28"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:03:38"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:03:38"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:03:48"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:03:48"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:03:58"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:03:58"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:04:08"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:04:08"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:04:18"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:04:18"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:04:28"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:04:28"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:04:38"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:04:38"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:04:48"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:04:48"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:04:58"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:04:58"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:05:08"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:05:08"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:05:18"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:05:18"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:05:28"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:05:28"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:05:39"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:05:39"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:05:49"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:05:49"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:05:59"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:05:59"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:06:09"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:06:09"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:06:19"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:06:19"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:06:29"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:06:29"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:06:39"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:06:39"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:06:49"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:06:49"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:06:59"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:06:59"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:07:09"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:07:09"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:07:19"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:07:19"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:07:29"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:07:29"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:07:39"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:07:39"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:07:49"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:07:49"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:07:59"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:07:59"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:08:09"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:08:09"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:08:19"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:08:19"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:08:29"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:08:29"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:08:39"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:08:39"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:08:49"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:08:49"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:08:59"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:08:59"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:09:09"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:09:09"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:09:19"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:09:19"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:09:29"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:09:29"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:09:39"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:09:39"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:09:49"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:09:49"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:09:59"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:09:59"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:10:09"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:10:09"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:10:19"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:10:19"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:10:29"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:10:29"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:10:39"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:10:39"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:10:49"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:10:49"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:10:59"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:10:59"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:11:09"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:11:09"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:11:19"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:11:19"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:11:29"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:11:29"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:11:39"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:11:39"}
+{"level":"error","message":"❌ MongoDB Connection Error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-06-29 19:11:49"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 19:11:49"}
+{"level":"info","message":"Supply Chain Circle API listening on port 5000","timestamp":"2026-06-29 19:12:22"}
+{"level":"info","message":"Environment: development","timestamp":"2026-06-29 19:12:22"}
+{"level":"info","message":"Health check: http://localhost:5000/api/health","timestamp":"2026-06-29 19:12:22"}
+{"level":"info","message":"Supply Chain Circle API listening on port 5000","timestamp":"2026-06-29 20:12:28"}
+{"level":"info","message":"Environment: development","timestamp":"2026-06-29 20:12:28"}
+{"level":"info","message":"Health check: http://localhost:5000/api/health","timestamp":"2026-06-29 20:12:28"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:12:31"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:12:31"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:12:40"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:12:40"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:12:47"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:12:47"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:12:55"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:12:55"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:13:00"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:13:00"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:13:08"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:13:08"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:13:14"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:13:14"}
+{"level":"error","message":"❌ MongoDB Connection Error: connection timed out","timestamp":"2026-06-29 20:13:34"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:13:34"}
+{"level":"error","message":"❌ MongoDB Connection Error: querySrv ETIMEOUT _mongodb._tcp.scc.9vfzp2r.mongodb.net","timestamp":"2026-06-29 20:14:11"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:14:11"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:14:24"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:14:24"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:14:36"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:14:36"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:14:43"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:14:43"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:14:49"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:14:49"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:14:55"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:14:55"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:15:00"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:15:00"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:15:09"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:15:09"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:15:17"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:15:17"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:15:25"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:15:25"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:15:40"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:15:40"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:15:47"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:15:47"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:15:55"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:15:55"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:16:01"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:16:01"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:16:08"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:16:08"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:16:15"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:16:15"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:16:22"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:16:22"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:16:31"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:16:31"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:16:37"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:16:37"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:16:44"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:16:44"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:16:51"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:16:51"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:16:59"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:16:59"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:17:06"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:17:06"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:17:12"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:17:12"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:17:18"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:17:18"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:17:25"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:17:25"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:17:31"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:17:31"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:17:37"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:17:37"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:17:44"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:17:44"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:17:50"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:17:50"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:17:56"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:17:56"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:18:04"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:18:04"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:18:10"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:18:10"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:18:16"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:18:16"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:18:23"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:18:23"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:18:31"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:18:31"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:18:52"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:18:52"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:19:00"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:19:00"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:19:07"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:19:07"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:19:14"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:19:14"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:19:22"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:19:22"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:19:32"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:19:32"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:19:38"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:19:38"}
+{"level":"error","message":"❌ MongoDB Connection Error: bad auth : authentication failed","timestamp":"2026-06-29 20:19:44"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:19:44"}
+{"level":"info","message":"Supply Chain Circle API listening on port 5000","timestamp":"2026-06-29 20:19:55"}
+{"level":"info","message":"Environment: development","timestamp":"2026-06-29 20:19:55"}
+{"level":"info","message":"Health check: http://localhost:5000/api/health","timestamp":"2026-06-29 20:19:55"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:19:57"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:19:57"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:19:57"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:19:57"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:20:02"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:20:02"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:20:02"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:20:02"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:20:07"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:20:07"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:20:07"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:20:07"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:20:12"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:20:12"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:20:12"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:20:12"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:20:17"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:20:17"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:20:17"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:20:17"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:20:23"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:20:23"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:20:23"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:20:23"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:20:28"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:20:28"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:20:28"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:20:28"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:20:33"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:20:33"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:20:33"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:20:33"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:20:38"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:20:38"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:20:38"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:20:38"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:20:43"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:20:43"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:20:43"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:20:43"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:20:48"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:20:48"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:20:48"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:20:48"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:20:53"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:20:53"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:20:53"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:20:53"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:20:58"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:20:58"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:20:58"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:20:58"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:21:03"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:21:03"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:21:03"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:21:03"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:21:08"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:21:08"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:21:08"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:21:08"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:21:13"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:21:13"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:21:13"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:21:13"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:21:18"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:21:18"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:21:18"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:21:18"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:21:23"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:21:23"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:21:23"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:21:23"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:21:28"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:21:28"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:21:28"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:21:28"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:21:33"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:21:33"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:21:33"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:21:33"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:21:38"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:21:38"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:21:38"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:21:38"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:21:43"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:21:43"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:21:43"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:21:43"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:21:48"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:21:48"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:21:48"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:21:48"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:21:53"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:21:53"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:21:53"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:21:53"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:21:58"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:21:58"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:21:58"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:21:58"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:22:03"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:22:03"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:22:03"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:22:03"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:22:08"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:22:08"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:22:08"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:22:08"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:22:13"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:22:13"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:22:13"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:22:13"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:22:18"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:22:18"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:22:18"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:22:18"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:22:23"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:22:23"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:22:23"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:22:23"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:22:28"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:22:28"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:22:28"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:22:28"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:22:33"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:22:33"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:22:33"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:22:33"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:22:38"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:22:38"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:22:38"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:22:38"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:22:43"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:22:43"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:22:43"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:22:43"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:22:48"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:22:48"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:22:48"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:22:48"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:22:53"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:22:53"}
+{"level":"error","message":"❌ MongoDB Connection Error: Cannot read properties of null (reading 'maxPoolSize')","timestamp":"2026-06-29 20:22:53"}
+{"level":"info","message":"🔄 Retrying connection in 5 seconds...","timestamp":"2026-06-29 20:22:53"}
+{"level":"info","message":"Supply Chain Circle API listening on port 5000","timestamp":"2026-06-29 20:22:58"}
+{"level":"info","message":"Environment: development","timestamp":"2026-06-29 20:22:58"}
+{"level":"info","message":"Health check: http://localhost:5000/api/health","timestamp":"2026-06-29 20:22:58"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:23:00"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:23:00"}
+{"level":"info","message":"   Connection Pool Size: 10","timestamp":"2026-06-29 20:23:00"}
+{"level":"info","message":"Supply Chain Circle API listening on port 5000","timestamp":"2026-06-29 20:23:39"}
+{"level":"info","message":"Environment: development","timestamp":"2026-06-29 20:23:39"}
+{"level":"info","message":"Health check: http://localhost:5000/api/health","timestamp":"2026-06-29 20:23:39"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-00.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 20:23:41"}
+{"level":"info","message":"   Database: test","timestamp":"2026-06-29 20:23:41"}
+{"level":"info","message":"   Connection Pool Size: 10","timestamp":"2026-06-29 20:23:41"}
+{"level":"warn","message":"⚠️ MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-06-29 20:52:11"}
+{"level":"info","message":"✅ MongoDB reconnected successfully","timestamp":"2026-06-29 20:52:49"}
+{"level":"warn","message":"⚠️ MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-06-29 20:55:30"}
+{"level":"info","message":"✅ MongoDB reconnected successfully","timestamp":"2026-06-29 20:57:01"}
+{"level":"info","message":"Supply Chain Circle API listening on port 5000","timestamp":"2026-06-29 21:06:07"}
+{"level":"info","message":"Environment: development","timestamp":"2026-06-29 21:06:07"}
+{"level":"info","message":"Health check: http://localhost:5000/api/health","timestamp":"2026-06-29 21:06:07"}
+{"level":"info","message":"✅ MongoDB Connected: ac-krk59bd-shard-00-02.9vfzp2r.mongodb.net:27017","timestamp":"2026-06-29 21:06:08"}
+{"level":"info","message":"   Database: scc-db","timestamp":"2026-06-29 21:06:08"}
+{"level":"info","message":"   Connection Pool Size: 10","timestamp":"2026-06-29 21:06:08"}
+{"level":"warn","message":"⚠️ MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-06-29 21:09:38"}
+{"level":"info","message":"✅ MongoDB reconnected successfully","timestamp":"2026-06-29 21:10:10"}
+{"level":"warn","message":"⚠️ MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-06-29 21:11:17"}
+{"level":"error","message":"❌ Async Error in : Operation `contactmessages.countDocuments()` buffering timed out after 10000ms","timestamp":"2026-06-29 22:45:56"}
+{"level":"error","message":"❌ Async Error in : Operation `contactmessages.countDocuments()` buffering timed out after 10000ms","timestamp":"2026-06-29 22:45:59"}
+{"level":"error","message":"❌ Async Error in : Operation `contactmessages.countDocuments()` buffering timed out after 10000ms","timestamp":"2026-06-29 22:46:00"}
+{"level":"error","message":"❌ Async Error in : Operation `contactmessages.countDocuments()` buffering timed out after 10000ms","timestamp":"2026-06-29 22:46:00"}
+{"level":"error","message":"❌ Async Error in : Operation `contactmessages.countDocuments()` buffering timed out after 10000ms","timestamp":"2026-06-29 22:46:01"}
+{"level":"info","message":"📩 New contact message from Light (businesskind4@gmail.com)","timestamp":"2026-06-30 00:47:54"}
+{"level":"info","message":"✅ New subscriber: businesskind4@gmail.com from SCC Website","timestamp":"2026-06-30 00:48:07"}
+{"level":"info","message":"✅ API routes loaded","timestamp":"2026-06-30 02:05:13"}
+{"level":"info","message":"🚀 Supply Chain Circle Server running on http://localhost:5000","timestamp":"2026-06-30 02:05:13"}
+{"level":"info","message":"📁 Environment: production","timestamp":"2026-06-30 02:05:13"}
+{"level":"info","message":"📁 Serving frontend from: C:\\Users\\Administrator\\Desktop\\scc-web-app\\frontend","timestamp":"2026-06-30 02:05:13"}
+{"level":"info","message":"🔄 Press Ctrl+C to stop","timestamp":"2026-06-30 02:05:13"}
+{"level":"http","message":"GET / 304 9ms","timestamp":"2026-06-30 02:06:49"}
+{"level":"http","message":"GET /assets/images/logo.png 304 2ms","timestamp":"2026-06-30 02:06:49"}
+{"level":"http","message":"GET /community.html 304 1ms","timestamp":"2026-06-30 02:07:01"}
+{"level":"http","message":"GET /assets/images/logo.png 304 2ms","timestamp":"2026-06-30 02:07:01"}
+{"level":"http","message":"GET /admin.html 200 9ms","timestamp":"2026-06-30 02:08:51"}
+{"level":"http","message":"GET /admin.html 304 1ms","timestamp":"2026-06-30 02:11:15"}
+{"level":"http","message":"GET /assets/images/favicon.png 304 0ms","timestamp":"2026-06-30 02:11:15"}
+{"level":"http","message":"GET /.well-known/appspecific/com.chrome.devtools.json 304 7ms","timestamp":"2026-06-30 02:13:26"}
+{"level":"info","message":"✅ API routes loaded","timestamp":"2026-06-30 02:17:06"}
+{"level":"info","message":"🚀 Supply Chain Circle Server running on http://localhost:5000","timestamp":"2026-06-30 02:17:06"}
+{"level":"info","message":"📁 Environment: production","timestamp":"2026-06-30 02:17:06"}
+{"level":"info","message":"📁 Serving frontend from: C:\\Users\\Administrator\\Desktop\\scc-web-app\\frontend","timestamp":"2026-06-30 02:17:06"}
+{"level":"info","message":"🔄 Press Ctrl+C to stop","timestamp":"2026-06-30 02:17:06"}
+{"level":"http","message":"GET / 304 11ms","timestamp":"2026-06-30 02:17:17"}
+{"level":"http","message":"GET /assets/images/logo.png 304 3ms","timestamp":"2026-06-30 02:17:17"}
+{"level":"http","message":"GET /admin.html 304 2ms","timestamp":"2026-06-30 02:17:32"}
+{"level":"error","message":"❌ Async Error in : Invalid password","timestamp":"2026-06-30 02:17:42"}
+{"level":"warn","message":"⚠️ Client Error: {\"message\":\"Invalid password\",\"stack\":\"Error: Invalid password\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\controllers\\\\adminController.js:19:15\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\middleware\\\\errorHandler.js:112:25\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:149:13)\\n    at Route.dispatch (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:119:3)\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:284:15\\n    at router.process_params (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:346:12)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:280:10)\\n    at checkConnection (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\config\\\\database.js:53:5)\",\"statusCode\":401,\"path\":\"/api/v1/admin/login\",\"method\":\"POST\",\"ip\":\"::1\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\"}","timestamp":"2026-06-30 02:17:42"}
+{"level":"warn","message":"POST /api/v1/admin/login 401 15ms","timestamp":"2026-06-30 02:17:42"}
+{"level":"error","message":"❌ Async Error in : Invalid password","timestamp":"2026-06-30 02:17:52"}
+{"level":"warn","message":"⚠️ Client Error: {\"message\":\"Invalid password\",\"stack\":\"Error: Invalid password\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\controllers\\\\adminController.js:19:15\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\middleware\\\\errorHandler.js:112:25\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:149:13)\\n    at Route.dispatch (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:119:3)\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:284:15\\n    at router.process_params (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:346:12)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:280:10)\\n    at checkConnection (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\config\\\\database.js:53:5)\",\"statusCode\":401,\"path\":\"/api/v1/admin/login\",\"method\":\"POST\",\"ip\":\"::1\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\"}","timestamp":"2026-06-30 02:17:52"}
+{"level":"warn","message":"POST /api/v1/admin/login 401 5ms","timestamp":"2026-06-30 02:17:52"}
+{"level":"error","message":"❌ Async Error in : Invalid password","timestamp":"2026-06-30 02:17:54"}
+{"level":"warn","message":"⚠️ Client Error: {\"message\":\"Invalid password\",\"stack\":\"Error: Invalid password\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\controllers\\\\adminController.js:19:15\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\middleware\\\\errorHandler.js:112:25\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:149:13)\\n    at Route.dispatch (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:119:3)\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:284:15\\n    at router.process_params (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:346:12)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:280:10)\\n    at checkConnection (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\config\\\\database.js:53:5)\",\"statusCode\":401,\"path\":\"/api/v1/admin/login\",\"method\":\"POST\",\"ip\":\"::1\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\"}","timestamp":"2026-06-30 02:17:54"}
+{"level":"warn","message":"POST /api/v1/admin/login 401 8ms","timestamp":"2026-06-30 02:17:54"}
+{"level":"error","message":"❌ Async Error in : Invalid password","timestamp":"2026-06-30 02:17:55"}
+{"level":"warn","message":"⚠️ Client Error: {\"message\":\"Invalid password\",\"stack\":\"Error: Invalid password\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\controllers\\\\adminController.js:19:15\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\middleware\\\\errorHandler.js:112:25\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:149:13)\\n    at Route.dispatch (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:119:3)\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:284:15\\n    at router.process_params (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:346:12)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:280:10)\\n    at checkConnection (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\config\\\\database.js:53:5)\",\"statusCode\":401,\"path\":\"/api/v1/admin/login\",\"method\":\"POST\",\"ip\":\"::1\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\"}","timestamp":"2026-06-30 02:17:55"}
+{"level":"warn","message":"POST /api/v1/admin/login 401 3ms","timestamp":"2026-06-30 02:17:55"}
+{"level":"error","message":"❌ Async Error in : Invalid password","timestamp":"2026-06-30 02:17:56"}
+{"level":"warn","message":"⚠️ Client Error: {\"message\":\"Invalid password\",\"stack\":\"Error: Invalid password\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\controllers\\\\adminController.js:19:15\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\middleware\\\\errorHandler.js:112:25\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:149:13)\\n    at Route.dispatch (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:119:3)\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:284:15\\n    at router.process_params (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:346:12)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:280:10)\\n    at checkConnection (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\config\\\\database.js:53:5)\",\"statusCode\":401,\"path\":\"/api/v1/admin/login\",\"method\":\"POST\",\"ip\":\"::1\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\"}","timestamp":"2026-06-30 02:17:56"}
+{"level":"warn","message":"POST /api/v1/admin/login 401 5ms","timestamp":"2026-06-30 02:17:56"}
+{"level":"error","message":"❌ Async Error in : Invalid password","timestamp":"2026-06-30 02:18:49"}
+{"level":"warn","message":"⚠️ Client Error: {\"message\":\"Invalid password\",\"stack\":\"Error: Invalid password\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\controllers\\\\adminController.js:19:15\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\middleware\\\\errorHandler.js:112:25\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:149:13)\\n    at Route.dispatch (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:119:3)\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:284:15\\n    at router.process_params (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:346:12)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:280:10)\\n    at checkConnection (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\config\\\\database.js:53:5)\",\"statusCode\":401,\"path\":\"/api/v1/admin/login\",\"method\":\"POST\",\"ip\":\"::1\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\"}","timestamp":"2026-06-30 02:18:49"}
+{"level":"warn","message":"POST /api/v1/admin/login 401 7ms","timestamp":"2026-06-30 02:18:49"}
+{"level":"http","message":"GET /admin.html 304 3ms","timestamp":"2026-06-30 02:19:01"}
+{"level":"http","message":"GET /assets/images/favicon.png 304 1ms","timestamp":"2026-06-30 02:19:01"}
+{"level":"error","message":"❌ Async Error in : Invalid password","timestamp":"2026-06-30 02:19:07"}
+{"level":"warn","message":"⚠️ Client Error: {\"message\":\"Invalid password\",\"stack\":\"Error: Invalid password\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\controllers\\\\adminController.js:19:15\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\middleware\\\\errorHandler.js:112:25\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:149:13)\\n    at Route.dispatch (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:119:3)\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:284:15\\n    at router.process_params (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:346:12)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:280:10)\\n    at checkConnection (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\config\\\\database.js:53:5)\",\"statusCode\":401,\"path\":\"/api/v1/admin/login\",\"method\":\"POST\",\"ip\":\"::1\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\"}","timestamp":"2026-06-30 02:19:07"}
+{"level":"warn","message":"POST /api/v1/admin/login 401 8ms","timestamp":"2026-06-30 02:19:07"}
+{"level":"info","message":"✅ API routes loaded","timestamp":"2026-06-30 02:25:57"}
+{"level":"info","message":"🚀 Supply Chain Circle Server running on http://localhost:5000","timestamp":"2026-06-30 02:25:57"}
+{"level":"info","message":"📁 Environment: production","timestamp":"2026-06-30 02:25:57"}
+{"level":"info","message":"📁 Serving frontend from: C:\\Users\\Administrator\\Desktop\\scc-web-app\\frontend","timestamp":"2026-06-30 02:25:57"}
+{"level":"info","message":"🔄 Press Ctrl+C to stop","timestamp":"2026-06-30 02:25:57"}
+{"level":"info","message":"✅ API routes loaded","timestamp":"2026-06-30 02:26:01"}
+{"level":"info","message":"🚀 Supply Chain Circle Server running on http://localhost:5000","timestamp":"2026-06-30 02:26:01"}
+{"level":"info","message":"📁 Environment: production","timestamp":"2026-06-30 02:26:01"}
+{"level":"info","message":"📁 Serving frontend from: C:\\Users\\Administrator\\Desktop\\scc-web-app\\frontend","timestamp":"2026-06-30 02:26:01"}
+{"level":"info","message":"🔄 Press Ctrl+C to stop","timestamp":"2026-06-30 02:26:01"}
+{"level":"info","message":"✅ API routes loaded","timestamp":"2026-06-30 02:26:39"}
+{"level":"info","message":"🚀 Supply Chain Circle Server running on http://localhost:5000","timestamp":"2026-06-30 02:26:39"}
+{"level":"info","message":"📁 Environment: production","timestamp":"2026-06-30 02:26:39"}
+{"level":"info","message":"📁 Serving frontend from: C:\\Users\\Administrator\\Desktop\\scc-web-app\\frontend","timestamp":"2026-06-30 02:26:39"}
+{"level":"info","message":"🔄 Press Ctrl+C to stop","timestamp":"2026-06-30 02:26:39"}
+{"level":"http","message":"GET / 304 9ms","timestamp":"2026-06-30 02:26:42"}
+{"level":"http","message":"GET /assets/images/logo.png 304 4ms","timestamp":"2026-06-30 02:26:42"}
+{"level":"http","message":"GET /admin.html 304 2ms","timestamp":"2026-06-30 02:26:52"}
+{"level":"info","message":"🔑 Login attempt - received: \"SCC123\", stored: \"SCCAdmin123\"","timestamp":"2026-06-30 02:27:03"}
+{"level":"error","message":"❌ Async Error in : Invalid password","timestamp":"2026-06-30 02:27:03"}
+{"level":"warn","message":"⚠️ Client Error: {\"message\":\"Invalid password\",\"stack\":\"Error: Invalid password\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\controllers\\\\adminController.js:23:15\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\middleware\\\\errorHandler.js:112:25\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:149:13)\\n    at Route.dispatch (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\route.js:119:3)\\n    at Layer.handle [as handle_request] (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\layer.js:95:5)\\n    at C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:284:15\\n    at router.process_params (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:346:12)\\n    at next (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\node_modules\\\\express\\\\lib\\\\router\\\\index.js:280:10)\\n    at checkConnection (C:\\\\Users\\\\Administrator\\\\Desktop\\\\scc-web-app\\\\backend\\\\src\\\\config\\\\database.js:53:5)\",\"statusCode\":401,\"path\":\"/api/v1/admin/login\",\"method\":\"POST\",\"ip\":\"::1\",\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\"}","timestamp":"2026-06-30 02:27:03"}
+{"level":"warn","message":"POST /api/v1/admin/login 401 14ms","timestamp":"2026-06-30 02:27:03"}
+{"level":"http","message":"GET /admin.html 304 1ms","timestamp":"2026-06-30 02:27:11"}
+{"level":"info","message":"🔑 Login attempt - received: \"SCCAdmin123\", stored: \"SCCAdmin123\"","timestamp":"2026-06-30 02:28:00"}
+{"level":"http","message":"POST /api/v1/admin/login 200 3ms","timestamp":"2026-06-30 02:28:00"}
+{"level":"http","message":"GET /api/v1/subscribers 200 92ms","timestamp":"2026-06-30 02:28:00"}
+{"level":"http","message":"GET /api/v1/contacts 200 70ms","timestamp":"2026-06-30 02:28:01"}
+{"level":"info","message":"🔄 Received shutdown signal. Closing gracefully...","timestamp":"2026-06-30 02:32:53"}
+{"level":"info","message":"✅ API routes loaded","timestamp":"2026-06-30 02:33:03"}
+{"level":"info","message":"🚀 Supply Chain Circle Server running on http://localhost:5000","timestamp":"2026-06-30 02:33:03"}
+{"level":"info","message":"📁 Environment: production","timestamp":"2026-06-30 02:33:03"}
+{"level":"info","message":"📁 Serving frontend from: C:\\Users\\Administrator\\Desktop\\scc-web-app\\frontend","timestamp":"2026-06-30 02:33:03"}
+{"level":"info","message":"🔄 Press Ctrl+C to stop","timestamp":"2026-06-30 02:33:03"}
+{"level":"http","message":"GET / 304 8ms","timestamp":"2026-06-30 02:36:15"}
+{"level":"http","message":"GET /assets/images/logo.png 304 4ms","timestamp":"2026-06-30 02:36:15"}
+{"level":"http","message":"GET /admin.html 200 10ms","timestamp":"2026-06-30 02:36:25"}
+{"level":"http","message":"GET /api/v1/subscribers 304 90ms","timestamp":"2026-06-30 02:36:26"}
+{"level":"http","message":"GET /api/v1/contacts 304 66ms","timestamp":"2026-06-30 02:36:26"}
+{"level":"http","message":"GET /admin.html 304 1ms","timestamp":"2026-06-30 02:36:31"}
+{"level":"http","message":"GET /api/v1/subscribers 304 60ms","timestamp":"2026-06-30 02:36:31"}
+{"level":"http","message":"GET /assets/images/favicon.png 304 1ms","timestamp":"2026-06-30 02:36:31"}
+{"level":"http","message":"GET /api/v1/contacts 304 62ms","timestamp":"2026-06-30 02:36:31"}
+{"level":"http","message":"GET /admin.html 304 1ms","timestamp":"2026-06-30 02:46:12"}
+{"level":"http","message":"GET /assets/images/favicon.png 304 1ms","timestamp":"2026-06-30 02:46:13"}
+{"level":"info","message":"🔄 Received shutdown signal. Closing gracefully...","timestamp":"2026-06-30 03:04:30"}

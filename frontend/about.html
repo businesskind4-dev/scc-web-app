@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About – Supply Chain Circle</title>
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Learn about Supply Chain Circle (SCC) – Botswana's professional institution for procurement, logistics, and supply chain intelligence." />
+    <meta name="keywords" content="Supply Chain, Procurement, Botswana, Logistics, About SCC, Katlo Galenamong" />
+    <link rel="canonical" href="https://supplychaincircle.com/about" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="About – Supply Chain Circle" />
+    <meta property="og:description" content="Learn about SCC's mission, founder, and philosophy." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://supplychaincircle.com/about" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome 6 (JavaScript SVG method) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- GSAP + ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Three.js (for Particle Network) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLx6el5MKoC1i7QZ8VLi4W9rP2Z0Q58/eL3p6HXzA5n0lKcIXXzL8yJY8HkPKORc1Qz7KB1kskXBHW7q8B6kZg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Vanilla-Tilt (for 3D card tilt) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQk1ECTbM239qX8ludUD8kI5Tl4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <style>
+        /* ============================================================
+           CSS CUSTOM PROPERTIES – "Kalahari Intelligence" Palette
+           ============================================================ */
+        :root {
+            --scc-deep: #0B1E36;
+            --scc-gold: #D4A02B;
+            --scc-teal: #0D9488;
+            --scc-slate: #94A3B8;
+
+            --white: #FFFFFF;
+            --off-white: #F8FAFC;
+            --dark: #0F172A;
+            --gray-100: #F1F5F9;
+            --gray-200: #E2E8F0;
+            --gray-300: #CBD5E1;
+            --gray-400: #94A3B8;
+            --gray-500: #64748B;
+            --gray-600: #475569;
+            --gray-700: #334155;
+            --gray-800: #1E293B;
+            --gray-900: #0F172A;
+
+            --gradient-gold: linear-gradient(135deg, #D4A02B, #E8C15C);
+            --gradient-teal: linear-gradient(135deg, #0D9488, #14B8A6);
+            --gradient-spotlight: radial-gradient(ellipse at center, rgba(212, 160, 43, 0.15), transparent 70%);
+            --gradient-hero: linear-gradient(180deg, var(--scc-deep) 0%, #0a1628 100%);
+
+            --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+            --container-max: 1200px;
+            --section-padding: 80px 0;
+            --section-padding-mobile: 50px 0;
+
+            --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-bounce: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+            --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.05);
+            --shadow-glow: 0 0 40px rgba(212, 160, 43, 0.15);
+            --shadow-card-hover: 0 25px 50px rgba(0, 0, 0, 0.4);
+        }
+
+        /* ============================================================
+           RESET & BASE
+           ============================================================ */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            background-color: var(--scc-deep);
+            color: var(--gray-200);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        :focus-visible {
+            outline: 2px solid var(--scc-gold);
+            outline-offset: 2px;
+            border-radius: 4px;
+        }
+
+        /* ============================================================
+           SKIP LINK
+           ============================================================ */
+        .skip-link {
+            position: absolute;
+            top: -100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--scc-gold);
+            color: var(--scc-deep);
+            padding: 12px 24px;
+            border-radius: 0 0 8px 8px;
+            font-weight: 600;
+            z-index: 10000;
+            transition: top 0.3s ease;
+        }
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* ============================================================
+           CONTAINER
+           ============================================================ */
+        .container {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 0 24px;
+            width: 100%;
+        }
+
+        /* ============================================================
+           TYPOGRAPHY
+           ============================================================ */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--white);
+        }
+
+        h1 {
+            font-size: clamp(2.4rem, 7vw, 4.8rem);
+            font-weight: 900;
+            line-height: 1.08;
+        }
+        h2 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            margin-bottom: 16px;
+        }
+        h3 {
+            font-size: clamp(1.25rem, 2vw, 1.75rem);
+            margin-bottom: 12px;
+        }
+        p {
+            font-size: 1.125rem;
+            color: var(--gray-400);
+            margin-bottom: 16px;
+        }
+
+        .text-gold {
+            color: var(--scc-gold);
+        }
+        .text-teal {
+            color: var(--scc-teal);
+        }
+        .text-white {
+            color: var(--white);
+        }
+        .text-center {
+            text-align: center;
+        }
+
+        /* ============================================================
+           BUTTONS
+           ============================================================ */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px 32px;
+            border: none;
+            border-radius: 8px;
+            font-family: var(--font-primary);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            text-decoration: none;
+            position: relative;
+            will-change: transform;
+        }
+
+        .btn-primary {
+            background: var(--gradient-gold);
+            color: var(--scc-deep);
+        }
+        .btn-primary:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: var(--shadow-glow);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+        .btn-secondary:hover {
+            border-color: var(--scc-gold);
+            background: rgba(212, 160, 43, 0.08);
+            transform: translateY(-3px);
+        }
+
+        .btn-teal {
+            background: var(--gradient-teal);
+            color: var(--white);
+        }
+        .btn-teal:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 0 30px rgba(13, 148, 136, 0.3);
+        }
+
+        .btn-sm {
+            padding: 10px 20px;
+            font-size: 0.875rem;
+        }
+        .btn-lg {
+            padding: 18px 48px;
+            font-size: 1.125rem;
+        }
+
+        /* ============================================================
+           SECTIONS
+           ============================================================ */
+        .section {
+            padding: var(--section-padding);
+        }
+        .section-dark {
+            background: var(--scc-deep);
+        }
+        .section-light {
+            background: var(--dark);
+        }
+
+        .section-tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--scc-gold);
+            background: rgba(212, 160, 43, 0.1);
+            padding: 4px 16px;
+            border-radius: 100px;
+            margin-bottom: 12px;
+            border: 1px solid rgba(212, 160, 43, 0.2);
+        }
+        .section-title {
+            margin-bottom: 8px;
+        }
+        .section-subtitle {
+            font-size: 1.125rem;
+            color: var(--gray-400);
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+
+        /* ============================================================
+           NAVBAR
+           ============================================================ */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 16px 0;
+            transition: background 0.4s ease, backdrop-filter 0.4s ease, padding 0.3s ease;
+            background: transparent;
+            will-change: transform;
+        }
+
+        .navbar.scrolled {
+            background: rgba(11, 30, 54, 0.92);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 10px 0;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .nav-logo img {
+            height: 40px;
+            width: auto;
+        }
+        .nav-logo span {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--white);
+            letter-spacing: -0.5px;
+        }
+        .nav-logo span .gold {
+            color: var(--scc-gold);
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+        .nav-link {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--gray-400);
+            transition: var(--transition-smooth);
+            position: relative;
+        }
+        .nav-link:hover {
+            color: var(--white);
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--scc-gold);
+            transition: var(--transition-smooth);
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        .nav-link.active {
+            color: var(--white);
+        }
+        .nav-link.active::after {
+            width: 100%;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 4px;
+            cursor: pointer;
+            padding: 4px;
+            background: none;
+            border: none;
+        }
+        .hamburger span {
+            display: block;
+            width: 28px;
+            height: 2px;
+            background: var(--white);
+            border-radius: 100px;
+            transition: var(--transition-smooth);
+        }
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+
+        /* ============================================================
+           ABOUT HERO
+           ============================================================ */
+        .about-hero {
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 120px 24px 60px;
+            background: var(--gradient-hero);
+            position: relative;
+            overflow: hidden;
+        }
+
+        #particle-canvas {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .about-hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: var(--gradient-spotlight);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .about-hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+        }
+
+        .about-hero h1 .highlight {
+            background: var(--gradient-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .about-hero p {
+            font-size: clamp(1rem, 1.4vw, 1.35rem);
+            color: var(--gray-400);
+            max-width: 620px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        /* ============================================================
+           FOUNDER SECTION
+           ============================================================ */
+        .founder-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 48px;
+            align-items: start;
+            margin-top: 20px;
+        }
+
+        .founder-image {
+            text-align: center;
+        }
+
+        .founder-image .avatar {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--scc-gold), var(--scc-teal));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+            font-size: 4rem;
+            color: var(--scc-deep);
+            box-shadow: 0 0 60px rgba(212, 160, 43, 0.15);
+        }
+
+        .founder-image .avatar i {
+            filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+        }
+
+        .founder-image h3 {
+            font-size: 1.25rem;
+            margin-bottom: 2px;
+        }
+        .founder-image p {
+            font-size: 0.875rem;
+            color: var(--gray-500);
+            margin: 0;
+        }
+
+        .founder-content h2 {
+            margin-bottom: 4px;
+        }
+        .founder-content .founder-tagline {
+            font-size: 1rem;
+            color: var(--scc-gold);
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+
+        .founder-interests {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 16px;
+        }
+        .founder-interests span {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 4px 14px;
+            border-radius: 100px;
+            font-size: 0.75rem;
+            color: var(--gray-400);
+        }
+
+        /* ============================================================
+           PHILOSOPHY SECTION
+           ============================================================ */
+        .philosophy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 28px;
+            margin-top: 20px;
+        }
+
+        .philosophy-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 16px;
+            padding: 30px 26px;
+            transition: var(--transition-smooth);
+            text-align: left;
+            will-change: transform;
+            transform-style: preserve-3d;
+            perspective: 800px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .philosophy-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(212, 160, 43, 0.05), rgba(13, 148, 136, 0.05));
+            opacity: 0;
+            transition: var(--transition-smooth);
+            pointer-events: none;
+        }
+
+        .philosophy-card:hover::before {
+            opacity: 1;
+        }
+
+        .philosophy-card .number {
+            font-size: 0.65rem;
+            font-weight: 700;
+            color: var(--scc-gold);
+            background: rgba(212, 160, 43, 0.1);
+            padding: 2px 12px;
+            border-radius: 100px;
+            display: inline-block;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+
+        .philosophy-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 6px;
+        }
+
+        .philosophy-card p {
+            font-size: 0.95rem;
+            color: var(--gray-400);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .philosophy-card .icon-wrap {
+            font-size: 1.8rem;
+            color: var(--scc-gold);
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        /* ============================================================
+           EVOLUTION TIMELINE
+           ============================================================ */
+        .timeline {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 24px;
+            margin-top: 20px;
+        }
+
+        .timeline-item {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 12px;
+            padding: 24px 20px;
+            text-align: center;
+            transition: var(--transition-smooth);
+        }
+
+        .timeline-item:hover {
+            transform: translateY(-4px);
+            border-color: rgba(212, 160, 43, 0.2);
+        }
+
+        .timeline-item .step {
+            font-size: 0.6rem;
+            font-weight: 700;
+            color: var(--scc-gold);
+            background: rgba(212, 160, 43, 0.1);
+            padding: 2px 12px;
+            border-radius: 100px;
+            display: inline-block;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .timeline-item .icon {
+            font-size: 2rem;
+            color: var(--scc-gold);
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .timeline-item h4 {
+            font-size: 1rem;
+            margin-bottom: 4px;
+        }
+        .timeline-item p {
+            font-size: 0.8rem;
+            color: var(--gray-500);
+            margin: 0;
+        }
+        .timeline-item .status-tag {
+            display: inline-block;
+            font-size: 0.55rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 2px 10px;
+            border-radius: 100px;
+            margin-top: 8px;
+        }
+        .status-complete {
+            background: rgba(13, 148, 136, 0.15);
+            color: var(--scc-teal);
+        }
+        .status-current {
+            background: rgba(212, 160, 43, 0.15);
+            color: var(--scc-gold);
+        }
+        .status-upcoming {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--gray-500);
+        }
+
+        /* ============================================================
+           FOOTER
+           ============================================================ */
+        .footer {
+            background: var(--dark);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 48px 0 24px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 32px;
+        }
+
+        .footer-brand p {
+            font-size: 0.875rem;
+            color: var(--gray-500);
+            max-width: 300px;
+            margin-top: 8px;
+        }
+
+        .footer h4 {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--white);
+            margin-bottom: 12px;
+        }
+
+        .footer-links li {
+            margin-bottom: 8px;
+        }
+        .footer-links a {
+            font-size: 0.875rem;
+            color: var(--gray-500);
+            transition: var(--transition-smooth);
+        }
+        .footer-links a:hover {
+            color: var(--scc-gold);
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 12px;
+            margin-top: 12px;
+        }
+        .footer-social a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--gray-400);
+            transition: var(--transition-smooth);
+        }
+        .footer-social a:hover {
+            background: var(--scc-gold);
+            color: var(--scc-deep);
+            transform: translateY(-3px);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .footer-bottom p {
+            font-size: 0.75rem;
+            color: var(--gray-500);
+            margin: 0;
+        }
+
+        .footer-brand .nav-logo img {
+            height: 36px;
+        }
+
+        /* ============================================================
+           RESPONSIVE BREAKPOINTS
+           ============================================================ */
+        @media (max-width: 1024px) {
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 32px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .about-hero {
+                min-height: 50vh;
+                padding: 100px 20px 40px;
+            }
+
+            .founder-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+                text-align: center;
+            }
+
+            .founder-interests {
+                justify-content: center;
+            }
+
+            .philosophy-grid {
+                grid-template-columns: 1fr;
+                max-width: 420px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .timeline {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-menu {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 280px;
+                height: 100vh;
+                background: var(--scc-deep);
+                flex-direction: column;
+                justify-content: center;
+                gap: 24px;
+                padding: 40px;
+                transition: right 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+                border-left: 1px solid rgba(255, 255, 255, 0.05);
+                box-shadow: -10px 0 40px rgba(0, 0, 0, 0.5);
+            }
+
+            .nav-menu.active {
+                right: 0;
+            }
+
+            .navbar.scrolled .nav-menu {
+                background: rgba(11, 30, 54, 0.98);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .about-hero h1 {
+                font-size: 2rem;
+            }
+            .about-hero p {
+                font-size: 0.95rem;
+            }
+
+            .founder-image .avatar {
+                width: 140px;
+                height: 140px;
+                font-size: 3rem;
+            }
+
+            .timeline {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .about-hero h1 {
+                font-size: 1.7rem;
+            }
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--scc-deep);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--scc-gold);
+            border-radius: 100px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #b8860b;
+        }
+
+        ::selection {
+            background: var(--scc-gold);
+            color: var(--scc-deep);
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        .reveal-visible {
+            opacity: 1;
+            transform: translateY(0);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+
+        .route-tracing-container {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0 0;
+        }
+        .route-tracing-container svg {
+            width: 80%;
+            max-width: 500px;
+            height: auto;
+        }
+        .route-line {
+            stroke-dasharray: 800;
+            stroke-dashoffset: 800;
+        }
+
+        .float {
+            animation: float 4s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .pulse-ring {
+            position: relative;
+        }
+        .pulse-ring::before {
+            content: '';
+            position: absolute;
+            inset: -4px;
+            border-radius: 8px;
+            border: 2px solid var(--scc-gold);
+            animation: pulse-ring 2s ease-out infinite;
+            pointer-events: none;
+        }
+        @keyframes pulse-ring {
+            0% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+            100% {
+                transform: scale(1.5);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Skip to main content -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- ============================================================
+    NAVBAR
+    ============================================================ -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="container">
+            <a href="/index.html" class="nav-logo" aria-label="Supply Chain Circle Home">
+                <img src="assets/images/logo.png" alt="Supply Chain Circle Logo" />
+                <span>Supply <span class="gold">Chain Circle</span></span>
+            </a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu" role="menubar">
+                <li role="none"><a href="/index.html" class="nav-link" role="menuitem">Home</a></li>
+                <li role="none"><a href="/about.html" class="nav-link" role="menuitem">About</a></li>
+                <li role="none"><a href="/assets.html" class="nav-link" role="menuitem">Assets</a></li>
+                <li role="none"><a href="/community.html" class="nav-link" role="menuitem">Community</a></li>
+                <li role="none">
+                    <a href="/community.html#contact" class="btn btn-primary btn-sm" role="menuitem">
+                        <i class="fas fa-paper-plane" aria-hidden="true"></i> Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================================================
+    MAIN CONTENT
+    ============================================================ -->
+    <main id="main-content">
+
+        <!-- ============================================================
+        ABOUT HERO
+        ============================================================ -->
+        <section class="about-hero" id="aboutHero">
+            <div id="particle-canvas"></div>
+            <div class="container about-hero-content">
+                <span class="section-tag">
+                    <i class="fas fa-info-circle" aria-hidden="true"></i> About Us
+                </span>
+                <h1 id="aboutTitle">
+                    Building Botswana's<br />
+                    <span class="highlight">Procurement Intelligence</span>
+                </h1>
+                <p id="aboutDesc">
+                    Supply Chain Circle (SCC) exists to create new knowledge, new methodologies,
+                    and new digital capabilities that improve procurement and supply chain decision-making
+                    across Botswana.
+                </p>
+            </div>
+        </section>
+
+        <!-- ============================================================
+        ROUTE TRACING
+        ============================================================ -->
+        <div class="route-tracing-container" id="routeTracing">
+            <svg viewBox="0 0 500 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path class="route-line" d="M10 30 L80 10 L150 30 L220 10 L290 30 L360 10 L430 30 L490 10"
+                stroke="url(#routeGrad)" stroke-width="2" stroke-linecap="round"/>
+                <defs>
+                    <linearGradient id="routeGrad" x1="0" y1="0" x2="1" y2="0">
+                        <stop offset="0%" stop-color="#D4A02B" stop-opacity="0.4"/>
+                        <stop offset="30%" stop-color="#D4A02B" stop-opacity="1"/>
+                        <stop offset="70%" stop-color="#0D9488" stop-opacity="1"/>
+                        <stop offset="100%" stop-color="#0D9488" stop-opacity="0.4"/>
+                    </linearGradient>
+                </defs>
+                <circle cx="10" cy="30" r="4" fill="#D4A02B" opacity="0.8"/>
+                <circle cx="80" cy="10" r="4" fill="#D4A02B" opacity="0.8"/>
+                <circle cx="150" cy="30" r="4" fill="#D4A02B" opacity="0.8"/>
+                <circle cx="220" cy="10" r="4" fill="#D4A02B" opacity="0.8"/>
+                <circle cx="290" cy="30" r="4" fill="#D4A02B" opacity="0.8"/>
+                <circle cx="360" cy="10" r="4" fill="#0D9488" opacity="0.8"/>
+                <circle cx="430" cy="30" r="4" fill="#0D9488" opacity="0.8"/>
+                <circle cx="490" cy="10" r="4" fill="#0D9488" opacity="0.8"/>
+            </svg>
+        </div>
+
+        <!-- ============================================================
+        FOUNDER SECTION
+        ============================================================ -->
+        <section class="section section-dark" id="founderSection">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag">
+                        <i class="fas fa-user" aria-hidden="true"></i> The Founder
+                    </span>
+                    <h2 class="section-title">Katlo Galenamong</h2>
+                    <p class="section-subtitle" style="margin-bottom:0;">
+                        A visionary building Botswana's procurement intelligence institution.
+                    </p>
+                </div>
+
+                <div class="founder-grid">
+                    <div class="founder-image">
+                        <div class="avatar">
+                            <i class="fas fa-user-graduate" aria-hidden="true"></i>
+                        </div>
+                        <h3>Katlo Galenamong</h3>
+                        <p>Founder, Supply Chain Circle</p>
+                    </div>
+
+                    <div class="founder-content">
+                        <h2>From Student to Institution Builder</h2>
+                        <p class="founder-tagline">
+                            <i class="fas fa-quote-left" aria-hidden="true" style="color:var(--scc-gold);margin-right:4px;"></i>
+                            "What capability should Botswana possess that it currently does not?"
+                        </p>
+                        <p>
+                            Supply Chain Circle was founded by Katlo Galenamong, a Supply Chain Management student
+                            at the University of Botswana. SCC did not begin as an academic assignment — it began
+                            from a broader realization.
+                        </p>
+                        <p>
+                            Throughout his studies, Katlo observed that procurement and supply chain management
+                            are often taught through theoretical frameworks while many practical challenges faced
+                            by Botswana remain insufficiently researched or digitally supported.
+                        </p>
+                        <p>
+                            Rather than viewing technology simply as a means of automation, Katlo views software
+                            as a mechanism for creating institutional knowledge.
+                        </p>
+
+                        <div class="founder-interests">
+                            <span>Supply Chain</span>
+                            <span>Procurement</span>
+                            <span>Logistics</span>
+                            <span>Operations Management</span>
+                            <span>Digital Transformation</span>
+                            <span>Research</span>
+                            <span>Systems Thinking</span>
+                            <span>Artificial Intelligence</span>
+                            <span>Software Engineering</span>
+                            <span>Entrepreneurship</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+        PHILOSOPHY SECTION
+        ============================================================ -->
+        <section class="section section-light" id="philosophySection">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag">
+                        <i class="fas fa-gem" aria-hidden="true"></i> Our Philosophy
+                    </span>
+                    <h2 class="section-title">Five Guiding Principles</h2>
+                    <p class="section-subtitle">
+                        Everything developed under SCC follows these core principles.
+                    </p>
+                </div>
+
+                <div class="philosophy-grid">
+                    <!-- Principle 1 -->
+                    <div class="philosophy-card" data-tilt data-tilt-scale="1.02" data-tilt-glare data-tilt-max-glare="0.1">
+                        <span class="number">01</span>
+                        <span class="icon-wrap"><i class="fas fa-brain" aria-hidden="true"></i></span>
+                        <h3>Knowledge Before Software</h3>
+                        <p>Software should never exist simply because technology allows it. Every digital platform must solve an identifiable knowledge problem.</p>
+                    </div>
+
+                    <!-- Principle 2 -->
+                    <div class="philosophy-card" data-tilt data-tilt-scale="1.02" data-tilt-glare data-tilt-max-glare="0.1">
+                        <span class="number">02</span>
+                        <span class="icon-wrap"><i class="fas fa-sitemap" aria-hidden="true"></i></span>
+                        <h3>Methodology Before Implementation</h3>
+                        <p>A robust methodology has greater long-term value than software code. Technology changes. Methodologies endure.</p>
+                    </div>
+
+                    <!-- Principle 3 -->
+                    <div class="philosophy-card" data-tilt data-tilt-scale="1.02" data-tilt-glare data-tilt-max-glare="0.1">
+                        <span class="number">03</span>
+                        <span class="icon-wrap"><i class="fas fa-flask" aria-hidden="true"></i></span>
+                        <h3>Evidence Before Opinion</h3>
+                        <p>Institutional credibility is built through measurable evidence rather than personal views. Support recommendations with research, data, and experimentation.</p>
+                    </div>
+
+                    <!-- Principle 4 -->
+                    <div class="philosophy-card" data-tilt data-tilt-scale="1.02" data-tilt-glare data-tilt-max-glare="0.1">
+                        <span class="number">04</span>
+                        <span class="icon-wrap"><i class="fas fa-network-wired" aria-hidden="true"></i></span>
+                        <h3>Systems Thinking</h3>
+                        <p>Procurement is a complex adaptive system consisting of governments, suppliers, markets, regulations, and people. Consider interactions, not isolated components.</p>
+                    </div>
+
+                    <!-- Principle 5 -->
+                    <div class="philosophy-card" data-tilt data-tilt-scale="1.02" data-tilt-glare data-tilt-max-glare="0.1">
+                        <span class="number">05</span>
+                        <span class="icon-wrap"><i class="fas fa-flag" aria-hidden="true"></i></span>
+                        <h3>Botswana First</h3>
+                        <p>Although internationally informed, SCC methodologies reflect Botswana's institutional environment, legislation, and development priorities before expanding regionally.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+        EVOLUTION SECTION
+        ============================================================ -->
+        <section class="section section-dark" id="evolutionSection">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag">
+                        <i class="fas fa-chart-line" aria-hidden="true"></i> Our Journey
+                    </span>
+                    <h2 class="section-title">Four Stages of Evolution</h2>
+                    <p class="section-subtitle">
+                        Every successful institution evolves through identifiable stages.
+                    </p>
+                </div>
+
+                <div class="timeline">
+                    <!-- Stage 1 -->
+                    <div class="timeline-item">
+                        <span class="step">Stage 1</span>
+                        <span class="icon"><i class="fas fa-users" aria-hidden="true"></i></span>
+                        <h4>Community</h4>
+                        <p>Creating visibility and bringing together people interested in procurement and supply chain.</p>
+                        <span class="status-tag status-complete">
+                            <i class="fas fa-check-circle" aria-hidden="true"></i> Complete
+                        </span>
+                    </div>
+
+                    <!-- Stage 2 -->
+                    <div class="timeline-item">
+                        <span class="step">Stage 2</span>
+                        <span class="icon"><i class="fas fa-laptop-code" aria-hidden="true"></i></span>
+                        <h4>Digital Assets</h4>
+                        <p>Practical digital platforms that demonstrate SCC's technical capability.</p>
+                        <span class="status-tag status-complete">
+                            <i class="fas fa-check-circle" aria-hidden="true"></i> Complete
+                        </span>
+                    </div>
+
+                    <!-- Stage 3 -->
+                    <div class="timeline-item">
+                        <span class="step">Stage 3</span>
+                        <span class="icon"><i class="fas fa-brain" aria-hidden="true"></i></span>
+                        <h4>Institutional Intelligence</h4>
+                        <p>Transitioning from software development to institutional development.</p>
+                        <span class="status-tag status-current">
+                            <i class="fas fa-spinner fa-pulse" aria-hidden="true"></i> Current
+                        </span>
+                    </div>
+
+                    <!-- Stage 4 -->
+                    <div class="timeline-item">
+                        <span class="step">Stage 4</span>
+                        <span class="icon"><i class="fas fa-crown" aria-hidden="true"></i></span>
+                        <h4>National Procurement Intelligence</h4>
+                        <p>Botswana's recognised centre for procurement and supply chain intelligence.</p>
+                        <span class="status-tag status-upcoming">Upcoming</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================================
+    FOOTER
+    ============================================================ -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <a href="/index.html" class="nav-logo">
+                        <img src="assets/images/logo.png" alt="Supply Chain Circle Logo" />
+                        <span style="font-size:1.1rem;font-weight:700;color:var(--white);">
+                            Supply <span class="gold">Chain Circle</span>
+                        </span>
+                    </a>
+                    <p>
+                        Advancing procurement and supply chain intelligence for Botswana
+                        through research, innovation, and digital transformation.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/profile.php?id=61589321477563" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://wa.me/qr/D2YIHY46XL4UO1" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                        </a>
+                        <a href="mailto:katlokind@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/assets.html">Assets</a></li>
+                        <li><a href="/community.html">Community</a></li>
+                        <li><a href="/community.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div>
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://businesskind4-dev.github.io/ppa-act-training/" target="_blank">PPA Training</a></li>
+                        <li><a href="#">Research Library</a></li>
+                        <li><a href="#">Frameworks</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:+26771916192"><i class="fas fa-phone" aria-hidden="true"></i> +267 71 916 192</a></li>
+                        <li><a href="mailto:katlokind@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> katlokind@gmail.com</a></li>
+                        <li><a href="https://wa.me/qr/D2YIHY46XL4UO1" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61589321477563" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Supply Chain Circle. All rights reserved.</p>
+                <p>Built with <i class="fas fa-heart" aria-hidden="true" style="color:var(--scc-gold);"></i> in Botswana</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================================
+    SCRIPTS
+    ============================================================ -->
+    <script>
+        (function() {
+            'use strict';
+
+            // ============================================================
+            // 0. CONSOLE BRANDING
+            // ============================================================
+            console.log('%c Supply Chain Circle ',
+                'background:#D4A02B;color:#0B1E36;font-weight:bold;font-size:16px;padding:8px 16px;border-radius:4px;'
+            );
+            console.log('%c Botswana\'s Procurement Intelligence Institution ',
+                'color:#94A3B8;font-size:13px;'
+            );
+            console.log('  BSCRI: https://bscri1.vercel.app/');
+            console.log('  PPA Training: https://businesskind4-dev.github.io/ppa-act-training/');
+            console.log('  Community: https://www.facebook.com/profile.php?id=61589321477563');
+
+            // ============================================================
+            // 1. THREE.JS – PARTICLE NETWORK
+            // ============================================================
+            (function initParticles() {
+                const container = document.getElementById('particle-canvas');
+                if (!container || typeof THREE === 'undefined') return;
+
+                const scene = new THREE.Scene();
+                const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+                const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+                renderer.setSize(window.innerWidth, window.innerHeight);
+                renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+                container.appendChild(renderer.domElement);
+
+                const count = 120;
+                const positions = new Float32Array(count * 3);
+                for (let i = 0; i < count * 3; i++) {
+                    positions[i] = (Math.random() - 0.5) * 20;
+                }
+                const geometry = new THREE.BufferGeometry();
+                geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+
+                const material = new THREE.PointsMaterial({
+                    color: 0xD4A02B,
+                    size: 0.035,
+                    transparent: true,
+                    opacity: 0.6,
+                    blending: THREE.AdditiveBlending,
+                    sizeAttenuation: true,
+                });
+                const particles = new THREE.Points(geometry, material);
+                scene.add(particles);
+
+                const lineMaterial = new THREE.LineBasicMaterial({
+                    color: 0xD4A02B,
+                    transparent: true,
+                    opacity: 0.12,
+                    blending: THREE.AdditiveBlending,
+                });
+                const lineGeometry = new THREE.BufferGeometry();
+                const linePositions = new Float32Array(count * count * 3);
+                lineGeometry.setAttribute('position', new THREE.BufferAttribute(linePositions, 3));
+                const lines = new THREE.LineSegments(lineGeometry, lineMaterial);
+                scene.add(lines);
+
+                camera.position.z = 6;
+
+                let mouseX = 0,
+                    mouseY = 0;
+                document.addEventListener('mousemove', (e) => {
+                    mouseX = (e.clientX / window.innerWidth) * 2 - 1;
+                    mouseY = -(e.clientY / window.innerHeight) * 2 + 1;
+                });
+
+                function updateLines() {
+                    const pos = particles.geometry.attributes.position.array;
+                    const linePos = lines.geometry.attributes.position.array;
+                    let idx = 0;
+                    const threshold = 1.8;
+                    for (let i = 0; i < count; i++) {
+                        for (let j = i + 1; j < count; j++) {
+                            const dx = pos[i * 3] - pos[j * 3];
+                            const dy = pos[i * 3 + 1] - pos[j * 3 + 1];
+                            const dz = pos[i * 3 + 2] - pos[j * 3 + 2];
+                            const dist = Math.sqrt(dx * dx + dy * dy + dz * dz);
+                            if (dist < threshold) {
+                                linePos[idx * 3] = pos[i * 3];
+                                linePos[idx * 3 + 1] = pos[i * 3 + 1];
+                                linePos[idx * 3 + 2] = pos[i * 3 + 2];
+                                linePos[(idx + 1) * 3] = pos[j * 3];
+                                linePos[(idx + 1) * 3 + 1] = pos[j * 3 + 1];
+                                linePos[(idx + 1) * 3 + 2] = pos[j * 3 + 2];
+                                idx += 2;
+                            }
+                        }
+                    }
+                    lines.geometry.attributes.position.array.fill(0);
+                    lines.geometry.attributes.position.array.set(linePos, 0);
+                    lines.geometry.setDrawRange(0, idx);
+                    lines.geometry.attributes.position.needsUpdate = true;
+                }
+
+                function animate() {
+                    requestAnimationFrame(animate);
+                    particles.rotation.x += 0.0003;
+                    particles.rotation.y += 0.0005;
+                    particles.rotation.z += 0.0002;
+                    particles.rotation.x += (mouseY * 0.005 - particles.rotation.x) * 0.02;
+                    particles.rotation.y += (mouseX * 0.005 - particles.rotation.y) * 0.02;
+                    updateLines();
+                    renderer.render(scene, camera);
+                }
+                animate();
+
+                function resize() {
+                    const w = window.innerWidth;
+                    const h = window.innerHeight;
+                    camera.aspect = w / h;
+                    camera.updateProjectionMatrix();
+                    renderer.setSize(w, h);
+                }
+                window.addEventListener('resize', resize);
+            })();
+
+            // ============================================================
+            // 2. VANILLA-TILT
+            // ============================================================
+            if (typeof VanillaTilt !== 'undefined') {
+                VanillaTilt.init(document.querySelectorAll('[data-tilt]'), {
+                    max: 10,
+                    speed: 400,
+                    glare: true,
+                    'max-glare': 0.1,
+                    gyroscope: false,
+                });
+            }
+
+            // ============================================================
+            // 3. GSAP + SCROLLTRIGGER
+            // ============================================================
+            if (typeof gsap !== 'undefined') {
+                gsap.registerPlugin(ScrollTrigger);
+
+                // Hero stagger
+                const tl = gsap.timeline({ defaults: { ease: 'power4.out', duration: 1.2 } });
+                tl.from('.about-hero .section-tag', { y: -30, opacity: 0, duration: 0.8 })
+                    .from('#aboutTitle', { y: 50, opacity: 0, duration: 1.2 }, '-=0.4')
+                    .from('#aboutDesc', { y: 30, opacity: 0, duration: 1 }, '-=0.6');
+
+                // Founder section stagger
+                gsap.from('.founder-image', {
+                    scrollTrigger: {
+                        trigger: '#founderSection',
+                        start: 'top 80%',
+                        toggleActions: 'play none none none',
+                        once: true,
+                    },
+                    x: -50,
+                    opacity: 0,
+                    duration: 1,
+                    ease: 'power3.out',
+                });
+
+                gsap.from('.founder-content', {
+                    scrollTrigger: {
+                        trigger: '#founderSection',
+                        start: 'top 80%',
+                        toggleActions: 'play none none none',
+                        once: true,
+                    },
+                    x: 50,
+                    opacity: 0,
+                    duration: 1,
+                    ease: 'power3.out',
+                    delay: 0.2,
+                });
+
+                // Philosophy cards stagger
+                gsap.utils.toArray('.philosophy-card').forEach((card, i) => {
+                    gsap.from(card, {
+                        scrollTrigger: {
+                            trigger: card,
+                            start: 'top 85%',
+                            toggleActions: 'play none none none',
+                            once: true,
+                        },
+                        y: 50,
+                        opacity: 0,
+                        duration: 0.9,
+                        ease: 'power3.out',
+                        delay: i * 0.12,
+                    });
+                });
+
+                // Timeline items stagger
+                gsap.utils.toArray('.timeline-item').forEach((item, i) => {
+                    gsap.from(item, {
+                        scrollTrigger: {
+                            trigger: item,
+                            start: 'top 88%',
+                            toggleActions: 'play none none none',
+                            once: true,
+                        },
+                        y: 40,
+                        opacity: 0,
+                        duration: 0.8,
+                        ease: 'power3.out',
+                        delay: i * 0.1,
+                    });
+                });
+
+                // Route tracing
+                const routeLine = document.querySelector('.route-line');
+                if (routeLine) {
+                    ScrollTrigger.create({
+                        trigger: '#routeTracing',
+                        start: 'top 90%',
+                        once: true,
+                        onEnter: () => {
+                            gsap.to(routeLine, {
+                                strokeDashoffset: 0,
+                                duration: 1.8,
+                                ease: 'power2.inOut',
+                            });
+                        }
+                    });
+                }
+
+                // Navbar scroll
+                const navbar = document.getElementById('navbar');
+                ScrollTrigger.create({
+                    start: 'top top',
+                    end: '+=100',
+                    onUpdate: (self) => {
+                        if (self.progress > 0.3) {
+                            navbar.classList.add('scrolled');
+                        } else {
+                            navbar.classList.remove('scrolled');
+                        }
+                    }
+                });
+            }
+
+            // ============================================================
+            // 4. NAVBAR TOGGLE
+            // ============================================================
+            const hamburger = document.getElementById('hamburger');
+            const navMenu = document.getElementById('navMenu');
+
+            if (hamburger && navMenu) {
+                hamburger.addEventListener('click', function() {
+                    const isOpen = this.classList.toggle('active');
+                    navMenu.classList.toggle('active');
+                    this.setAttribute('aria-expanded', isOpen);
+                });
+
+                navMenu.querySelectorAll('.nav-link, .btn').forEach((link) => {
+                    link.addEventListener('click', () => {
+                        hamburger.classList.remove('active');
+                        navMenu.classList.remove('active');
+                        hamburger.setAttribute('aria-expanded', 'false');
+                    });
+                });
+            }
+
+            // ============================================================
+            // 5. FOOTER YEAR
+            // ============================================================
+            const yearSpan = document.getElementById('currentYear');
+            if (yearSpan) {
+                yearSpan.textContent = new Date().getFullYear();
+            }
+
+        })();
+    </script>
+
+</body>
+</html>
