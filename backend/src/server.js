@@ -4,12 +4,12 @@ const path = require('path');
 const mongoose = require('mongoose');
 const helmet = require('helmet');
 const compression = require('compression');
-const cors = require('cors');
 
 const { connectDB } = require('./config/database');
 const { requestLogger } = require('./middleware/requestLogger');
 const { globalLimiter, skipHealthCheck } = require('./middleware/rateLimiter');
 const { errorHandler, notFoundHandler } = require('./middleware/errorHandler');
+const corsMiddleware = require('./middleware/cors');
 const logger = require('./utils/logger');
 
 const app = express();
@@ -40,10 +40,7 @@ app.use(compression({
     brotli: true,
 }));
 
-app.use(cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:5000',
-    credentials: true,
-}));
+app.use(corsMiddleware);
 
 // ============================================================
 // REQUEST LOGGING
