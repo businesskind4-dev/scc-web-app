@@ -497,3 +497,8 @@
 {"level":"info","message":"📩 New contact message from Katlo (katlokind@gmail.com)","timestamp":"2026-06-30 03:08:51"}
 {"level":"info","message":"📧 Email notification sent for message from katlokind@gmail.com","timestamp":"2026-06-30 03:08:52"}
 {"level":"info","message":"✅ New subscriber: katlokind@gmail.com from SCC Website","timestamp":"2026-06-30 03:09:00"}
+{"level":"info","message":"✅ API routes loaded","timestamp":"2026-07-01 21:06:56"}
+{"level":"info","message":"🚀 Supply Chain Circle Server running on http://localhost:5000","timestamp":"2026-07-01 21:06:56"}
+{"level":"info","message":"📁 Environment: production","timestamp":"2026-07-01 21:06:56"}
+{"level":"info","message":"📁 Serving frontend from: C:\\Users\\Administrator\\Desktop\\scc-web-app\\frontend","timestamp":"2026-07-01 21:06:56"}
+{"level":"info","message":"🔄 Press Ctrl+C to stop","timestamp":"2026-07-01 21:06:56"}

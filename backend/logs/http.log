@@ -561,3 +561,8 @@
 {"level":"http","message":"GET /api/v1/subscribers 200 66ms","timestamp":"2026-06-30 03:09:46"}
 {"level":"http","message":"GET /assets/images/favicon.png 304 0ms","timestamp":"2026-06-30 03:09:46"}
 {"level":"http","message":"GET /api/v1/contacts 200 70ms","timestamp":"2026-06-30 03:09:46"}
+{"level":"info","message":"✅ API routes loaded","timestamp":"2026-07-01 21:06:56"}
+{"level":"info","message":"🚀 Supply Chain Circle Server running on http://localhost:5000","timestamp":"2026-07-01 21:06:56"}
+{"level":"info","message":"📁 Environment: production","timestamp":"2026-07-01 21:06:56"}
+{"level":"info","message":"📁 Serving frontend from: C:\\Users\\Administrator\\Desktop\\scc-web-app\\frontend","timestamp":"2026-07-01 21:06:56"}
+{"level":"info","message":"🔄 Press Ctrl+C to stop","timestamp":"2026-07-01 21:06:56"}

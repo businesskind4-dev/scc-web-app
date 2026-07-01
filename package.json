@@ -1,0 +1,13 @@
+{
+  "name": "scc-web-app",
+  "version": "1.0.0",
+  "description": "Supply Chain Circle – Full Stack Application",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "build": "cd backend && npm install",
+    "postinstall": "cd backend && npm install"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
